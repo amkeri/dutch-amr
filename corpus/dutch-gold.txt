@@ -1,0 +1,1683 @@
+# ::id nl-0001
+# ::snt Toen ik een jaar of zes was, zag ik op een keer een prachtige plaat in een boek over het Oerwoud, dat “Ware Verhalen” heette. 
+(z / zien-01
+   :ARG0 (i / ik)
+   :ARG1 (p / plaat
+            :mod (p2 / prachtig)
+            :location (b / boek
+                        :wiki - 
+                        :name (n / naam
+                           :op1 "Ware"
+                           :op2 "Verhalen")
+                        :topic (o / oerwoud)))
+   :mod (o2 / ooit)
+   :time (l / leeftijd-01
+            :ARG1 i
+            :ARG2 (t / temporal-quantity
+                     :quant 6
+                     :unit (j / jaar))))
+
+# ::id nl-0002
+# ::snt Ik heb toen veel nagedacht over avonturen in de rimboe.
+(n / nadenken-01
+   :ARG0 (i / ik)
+   :ARG1 (a / avontuur
+            :location (r / rimboe))
+   :ARG1-of (v / veel)
+   :time (t / toen))
+
+# ::id nl-0003
+# ::snt Ik liet mijn meesterwerk aan de grote mensen zien en vroeg hun of ze er bang voor waren.
+(e / en
+   :op1 (t / tonen-01
+         :ARG0 (i / ik)
+         :ARG1 (m / meesterwerk
+                  :poss i)
+         :ARG2 (m2 / mensen
+                  :mod (g / groot)))
+   :op2 (v / vragen-01
+         :ARG0 i
+         :ARG1 (b / bang-01
+            :mode vragend
+               :ARG0 m
+               :ARG1 m2)
+         :ARG2 m2))
+
+# ::id nl-0004
+# ::snt Zij antwoordden: “Wie zou er nu bang zijn voor een hoed?”
+(c / contrast-01
+  :ARG2 (a / antwoorden-01
+          :ARG0 (z / zij)
+          :ARG2 (b / bang
+                  :ARG1 (p / persoon
+                          :mod (a2 / amr-unknown))
+                  :ARG2 (h / hoed)
+                  :mode vragend)))
+
+# ::id nl-0005
+# ::snt Mijn tekening stelde geen hoed voor. 
+(t / tekening
+   :polarity -
+   :ARG1 (h / hoed)
+   :domain (t2 / tekenen-01
+               :ARG0 (i / ik)))
+
+# ::id nl-0006
+# ::snt Die moeten altijd bij alles uitleg hebben. 
+(b / benodigen-01
+   :ARG0 (z / zij)
+   :ARG1 (u / uitleg-01
+            :ARG1 (a / alles))
+   :time (a2 / altijd))
+
+# ::id nl-0007
+# ::snt Zo kwam het, dat ik op zesjarige leeftijd een schitterende schildersloopbaan liet varen.
+(v / veroorzaken-01
+   :ARG0 (d / dat)
+   :ARG1 (o / opgeven-07
+            :ARG0 (i / ik)
+            :ARG1 (l / loopbaan
+                     :mod (s / schilder)
+                     :topic (p / persoon
+                               :ARG0-of (s2 / schilderen-02))
+                     :mod (s3 / schitterend))
+            :time (l2 / leeftijd-01
+                      :ARG1 i
+                      :ARG2 (t / temporal-quantity
+                               :quant 6
+                               :unit (j / jaar)))))
+
+# ::id nl-0008
+# ::snt Ik voelde me ontmoedigd, door de mislukking van mijn tekening nummer 1 en mijn tekening nummer 2. 
+(o / ontmoedigen-01
+   :ARG0 (m / mislukken-01
+            :ARG1 (e / en
+                     :op1 (t / tekening
+                             :wiki - 
+                             :name (n / naam
+                                      :op1 "tekening"
+                                      :op2 "nummer"
+                                      :op3 "1"))
+                     :op2 (t2 / tekening
+                              :wiki -
+                              :name (n2 / naam
+                                        :op1 "tekening"
+                                        :op2 "nummer"
+                                        :op3 "2")
+                     :poss (i / ik))))
+   :ARG1 i)
+
+# ::id nl-0009
+# ::snt Grote mensen begrijpen nooit iets uit zichzelf en voor kinderen is het vervelend hen altijd weer alles uit te moeten leggen.
+(e / en
+   :op1 (b / begrijpen-01
+           :polarity -
+           :ARG0 (m / mensen
+                    :mod (g / groot))
+           :ARG1 (i / iets)
+           :time (o / ooit)
+           :mod (u / uit-zichzelf))
+   :op2 (v / vervelend-01
+           :domain (u2 / uitleggen-01
+                  :ARG0 (k / kind)
+                  :ARG1 (i2 / iets)
+                  :ARG2 m
+                  :time (a / altijd))))
+
+# ::id nl-0010
+# ::snt Ik heb zowat overal gevlogen.
+(v / vliegen-01
+   :ARG1 (i / ik)
+   :location (o / overal
+                :mod (z / zowat)))
+
+# ::id nl-0011
+# ::snt Dan sprak ik maar niet meer over boa constrictors of oerwouden of over de sterren. 
+(s / spreken-01
+   :polarity -
+   :ARG0 (i / ik)
+   :ARG1 (o / of
+            :op1 (b / boa 
+               :mod (c / constrictor))
+            :op2 (o2 / oerwoud)
+            :op3 (s2 / ster)
+            :ARG2 (p2 / persoon)
+            :time (d2 / dan)))
+
+# ::id nl-0012
+# ::snt En het grote mens vond het plezierig om kennis te maken met zo'n verstandig man.
+(e / en
+      :op2 (p / plezierig
+            :ARG0 (o / ontmoeten-02
+                  :ARG0 (m / mens
+                        :mod (g / groot))
+                  :ARG1 (m2 / man
+                        :ARG2-of (v / verstandig-02
+                              :mod (z / zo-een))))
+            :ARG1 m))
+
+# ::id nl-0013
+# ::snt Het was voor mij een kwestie van leven of dood. 
+(k / kwestie-01
+   :ARG0 (i / ik)
+   :ARG1 (o / of
+            :op1 (l / leven-01)
+            :op2 (d / dood-01)))
+
+# ::id nl-0014
+# ::snt De eerste avond sliep ik dus in het zand, wel duizend mijl van de bewoonde wereld.
+(s / slapen-01
+   :ARG0 (i / ik)
+   :location (z / zand)
+   :location (r / relative-position
+               :op1 (b / bewoonde-wereld)
+               :quant (d / distance-quantity
+                        :quant 1000
+                        :unit (m / mijl))))
+   :time (d2 / date-entity
+             :dayperiod (n / nacht)
+             :ord (o / ordinal-entity
+                     :value 1))
+
+# ::id nl-0015
+# ::snt Ik bekeek die verschijning dus met ogen die rond van verbazing waren. 
+(b / bekijken-01
+      :ARG0 (i / ik)
+      :ARG1 (v / verschijning
+            :mod (d / die))
+      :manner (o / oog
+            :part-of i 
+            :ARG1-of (r / rond-02
+                  :ARG0-of (v2 / verbazing-01)))
+      :mod (d2 / dus))
+
+# ::id nl-0016
+# ::snt Maar dat kleine ventje zag er niet uit, alsof hij verdwaald was, of doodmoe of hongerig, of dorstig of angstig.
+(c / contrast-01
+   :ARG2 (u / uitzien-01
+            :polarity -
+            :ARG0 (v / vent
+                     :mod (k / klein))
+            :ARG1 (o / of
+                     :op1 (d / dwalen-01
+                              :ARG1 v)
+                     :op2 (m / moe-01
+                              :mod (d2 / dood)
+                              :ARG1 v)
+                     :op3 (h / honger-01
+                              :ARG0 v)
+                     :op4 (d3 / dorst-01
+                              :ARG0 v)
+                     :op5 (a / angst-01
+                              :ARG0 v))))
+
+# ::id nl-0017
+# ::snt En toen herhaalde hij héél zacht, alsof het over iets héél serieus' ging:
+(e / en
+   :op2 (h / herhalen-01
+            :ARG0 (h2 / hij)
+            :ARG1-of (z / zacht-02
+                        :degree (h3 / heel))
+            :time (t / toen)
+            :conj-as-if (b / betreffen
+                  :ARG1 (i / iets
+                           :mod (s / serieus-02
+                                    :degree h3)))))
+
+# ::id nl-0018
+# ::snt Ik haalde een blaadje papier en een vulpen uit mijn zak.
+(u / uithalen-11
+   :ARG0 (i / ik)
+   :ARG1 (e / en
+             :op1 (b / blad
+                  :consist-of (p / papier))
+             :op2 (p2 / pen
+                  :mod (v / vul)))
+   :source (z / zak
+             :poss i))
+
+# ::id nl-0019
+# ::snt Een boa constrictor is veel te gevaarlijk en een olifant neemt zoveel ruimte in beslag. 
+(e / en
+   :op1 (g / gevaarlijk
+        :domain (b / boa 
+            :mod (c / constrictor))
+        :degree (t / te
+            :mod (v / veel)))
+   :op2 (i / innemen-13
+        :ARG0 (o / olifant)
+        :ARG1 (r / ruimte
+                 :degree (v2 / veel
+                     :mod (z / zo)))))
+
+# ::id nl-0020
+# ::snt Toen tekende ik het dan maar.
+(t / tekenen-01
+   :ARG0 (i / ik)
+   :ARG1 (h / het
+            :time (t2 / toen)
+            :mode capitulerend))
+
+# ::id nl-0021
+# ::snt Mijn vriendje lachte vriendelijk en toegeeflijk. 
+(l / lachen-01
+   :ARG0 (p / persoon
+            :ARG0-of (h / have-rel-role-91
+                        :ARG1 (i / ik)
+                        :ARG2 (v / vriend)))
+   :manner (v2 / vriendelijk-01)
+   :manner (t / toegeeflijk))
+
+# ::id nl-0022
+# ::snt "Je ziet toch wel dat dat geen schaap is: het is een ram, hij heeft horens." zei hij. 
+(z / zeggen-01
+   :ARG0 (h / hij)
+   :ARG1 (e / en
+            :op1 (z2 / zien-01
+                     :mod (t / toch)
+                     :ARG0 (j / jij)
+                     :ARG1 (s / schaap
+                              :domain (d / dat)
+                              :polarity -))
+            :op2 (r / ram
+                     :domain d)
+            :op3 (h2 / hebben-03
+                     :ARG0 (h3 / het)
+                     :ARG1 (h4 / horens))))
+
+# ::id nl-0023
+# ::snt Nog eens maakte ik mijn tekening over. 
+(m / maken-01 
+   :ARG0 (i / ik)
+   :ARG1 (t / tekening-01
+      :poss i
+      :mod (o / opnieuw)))
+
+# ::id nl-0024
+# ::snt Maar die werd ook al geweigerd, net als de vorigen.
+(c / contrast-01
+   :ARG1 (a / afgewezen-01
+            :ARG1 (d / die)
+            :mod (o / ook))
+            :ARG1-of (g / gelijken-01
+                        :ARG2 (v2 / vorigen)))
+
+# ::id nl-0025
+# ::snt Toen werd ik ongeduldig, want ik wilde gauw beginnen mijn motor uit elkaar te halen.
+(o / ongeduldig-01
+         :ARG1 (i / i))
+      :ARG1-of (o / oorzaak-01
+            :ARG0 (b / beginnen-01
+                  :ARG0 i
+                  :ARG1 (d / demonteren-01
+                              :ARG1 (m / motor
+                                       :poss i))))
+      :time (g / gauw)
+
+# ::id nl-0026
+# ::snt Tot mijn verbazing zag ik het gezicht van mijn kleine kunstcriticus stralen.
+(z / zien-01
+   :ARG0 (i / ik)
+   :ARG1 (s / stralen-08
+            :ARG1 (g / gezicht
+                     :part-of (p / persoon
+                                :ARG0-of (c / criticus
+                                            :mod (k / kunst))
+                                :mod (kl / klein)
+                                :poss i)))
+   :manner (v / verbazen-01
+              :ARG1 i))  
+
+# ::id nl-0027
+# ::snt De kleine prins ondervroeg mij voortdurend maar scheen mijn vragen nooit te horen.
+(s / schijnen-01
+      :ARG1 (h / horen-01
+      :polarity -
+            :ARG0 (p / prins
+                  :mod (k / klein)
+                  :ARG0-of (o / ondervragen-01
+                        :ARG2 (i / ik)
+                        :manner (v / voortdurend)))
+            :ARG1 (v2 / vraag
+                  :poss i))
+      :time (a / altijd))
+
+# ::id nl-0028
+# ::snt Zo was ik dan weer achter iets heel belangrijks gekomen: de planeet waar hij vandaan kwam, was niet veel groter dan een huis!
+(a / achterkomen-01
+      :ARG0 (i / ik)
+      :ARG1 (i2 / iets
+            :ARG1-of (b / belangrijk-01
+                  :degree (h / heel))
+      :manner (z / zo)
+      :domain (g / groot
+                  :polarity -
+                  :degree (v / veel)
+                  :compared-to (h / huis)
+                  :domain (p / planeet
+                        :ARG3-of (v / vandaan-komen-03
+                              :ARG1 (h3 / hij))))))                           
+
+# ::id nl-0029
+# ::snt Die is maar één keer met de telescoop gezien, in 1909 door een Turks sterrenkundige.
+(z / zien-01
+      :ARG0 (s / sterrenkundige
+            :mod (l / land 
+                  :wiki "Turkije"
+                  :name (n / naam 
+                     :op1 "Turkije")))
+      :ARG1 (p / planeet
+            :mod (d / die))
+            :ARG1-of (h / have-frequency- 91
+            :ARG2 1
+            :mod (m / maar)))
+      :instrument (t / telescoop)
+      :time (d / date-entity 
+         :year 1909)
+
+# ::id nl-0030
+# ::snt Maar niemand geloofde hem, om zijn Turkse kleren. 
+(c / contrast-01
+      :ARG2 (c / kleren-01
+            :ARG1 (h / hij)
+            :manner (l / land 
+                  :wiki "Turkije"
+                  :name (n / name 
+                        :op1 "Turkije"))
+            :ARG0-of (o / oorzaak-01
+                        :ARG1 (g / geloven-01
+                                 :ARG0 (i / iemand)
+                                 :polarity -))))                              
+
+# ::id nl-0031
+# ::snt In 1920 hield de sterrenkundige zijn uitlegging nog eens, ditmaal in een keurig pak. 
+(u / uitlegging-01
+   :ARG0 (s / sterrenkundige
+      :ARG1-of (k / kleden-01
+                  :ARG2 (p2 / pak
+                        :mod (k / keurig)))
+      :mod (d / ditmaal))
+   :mod (a / alweer)
+   :time (d2 / date-entity
+             :year 1920))
+
+# ::id nl-0032
+# ::snt Wanneer je hun vertelt van een nieuwe vriend vragen ze nooit het belangrijkste. 
+(v / vragen-01 
+      :polarity -
+      :ARG0 (z / zij)
+      :ARG1 (h / het
+         :ARG1-of (h2 / have-degree-91
+                        :ARG2 (b / belangrijk-01
+                                 :mod (m / meest)
+                                 :ARG1 h)))
+      :ARG2 (j / jij)
+      :time (v2 / vertellen-01
+            :ARG0 j
+            :ARG1 (h / have-rel-role-91
+                  :ARG0 (p / persoon)
+                  :ARG1 j
+                  :ARG2 (v2 / vriend)
+                  :ARG1-of (n / nieuw-01)))
+            :ARG2 (z2 / zij))
+      :time (o / ooit)
+
+# ::id nl-0033
+# ::snt Ze zullen de schouders ophalen en je voor een klein kind uitmaken. 
+(e / en
+   :op1 (o / ophalen-01
+           :ARG0 (z / zij)
+           :ARG1 (s / schouder
+                  :poss z))
+   :op2 (u / uitmaken-01
+           :ARG0 z
+           :ARG1 (j / jij)
+           :ARG2 (k / kind)))
+
+# ::id nl-0034
+# ::snt Kinderen moeten veel geduld hebben met de grote mensen. 
+(m / moeten-01
+   :ARG2 (h / hebben-01
+            :ARG0 (k / kind)
+            :ARG1 (g / geduld)
+            :ARG2 (m2 / mensen
+                      :mod (g2 / groot))
+            :degree (v / veel)))
+
+# ::id nl-0035
+# ::snt Eigenlijk had ik dit verhaal als een sprookje willen beginnen.  
+(w / willen-01
+   :ARG0 (i / ik)
+   :ARG1 (b / beginnen-01
+            :ARG0 i
+            :ARG1 (v / verhaal
+                     :mod (d / dit))
+            :manner (s / sprookje))
+   :ARG1-of (e / eigenlijk-02))
+
+# ::id nl-0036
+# ::snt Het is nu al zes jaar geleden dat mijn vriendje weg is gegaan met zijn schaap.  
+(w / weggaan-11
+   :ARG1 (t / temporal-quantity
+            :quant 6
+            :unit (j / jaar))
+   :time (n / nu)
+   :time (a / al
+            :op1 (g / gaan-11
+                    :ARG0 (p / persoon
+                             :mod (k / klein)
+                             :ARG0-of (h / have-rel-role-91
+                                         :ARG1 (i / ik)
+                                         :ARG2 (v2 / vriend)))
+                    :accompanier (s / schaap
+                                    :poss p))))
+
+# ::id nl-0037
+# ::snt En ik zou als de grote mensen kunnen worden, die alleen maar om cijfers geven.  
+(e / en
+   :op2 (k / kunnen-01
+           :ARG1 (w / worden-01
+                    :ARG1 (i / ik)
+                    :ARG2 (l / lijken-01
+                             :ARG1 i
+                             :ARG2 (m / mensen
+                                      :mod (g / groot)
+                                      :ARG0-of (g2 / geven-om-01
+                                                   :ARG1 (c / cijfers)
+                                                   :mod (a / alleen)))))))
+
+# ::id nl-0038
+# ::snt Ik ga dus maar op mijn gevoel af, op goed geluk. 
+(a / afgaan-01
+      :ARG0 (i / ik)
+      :ARG1 (g / gevoel
+            :poss i)
+      :mod (d / dus)
+      :mod (m / maar)
+      :spreekwoord (o / op
+            :mod (g2 / geluk
+                  :mod (g3 / goed))))
+
+# ::id nl-0039
+# ::snt Hij dacht misschien dat ik was zoals hij. 
+(d / denken-01
+   :ARG0 (h / hij)
+   :ARG1 (l / lijken-01
+            :ARG1 (i / ik)
+            :ARG2 h)
+   :ARG1-of (m / mischien-01))
+
+# ::id nl-0040
+# ::snt Maar helaas kan ik niet een schaap door een kist heen zien.  
+(c / contrast-01
+   :ARG2 (k / kunnen-01
+            :polarity -
+            :ARG1 (z / zien-01
+                     :ARG0 (i / ik)
+                     :ARG1 (s / schaap)
+                     :manner (d / door
+                                :op1 (k2 / kist)))
+            :ARG2-of (h / helaas)))
+
+# ::id nl-0041
+# ::snt Iedere dag hoorde ik wat meer over de planeet, zijn vertrek en over de reis.
+(h / horen-01
+   :ARG0 (i / ik)
+   :ARG1 (i2 / iets
+             :mod (m / meer)
+             :topic (a / and
+                       :op1 (p / planeet)
+                       :op2 (v / vertrek-01
+                               :ARG0 (h2 / hij))
+                       :op3 (r / reis-01)))
+   :frequency (r2 / rate-entity-91
+                  :ARG2 (t2 / temporal-quantity
+                            :quant 1
+                            :unit (d / dag))))
+
+# ::id nl-0042
+# ::snt Zo hoorde ik op de derde dag het drama van de apebroodbomen.
+(h / horen-01
+   :ARG0 (i / ik)
+   :ARG1 (d / drama
+            :topic (b / bomen
+                      :mod (b2 / brood
+                               :mod (a / aap))))
+   :time (d2 / dag
+             :ord (o / ordinal-entity
+                     :value 3))
+   :manner (z / zo))
+
+# ::id nl-0043
+# ::snt Want ineens vroeg de kleine prins me, alsof hij in grote onzekerheid verkeerde:
+(v / vragen-01
+      :ARG0 (p / prins
+               :mod (k / klein))
+      :ARG2 (i / ik)
+      :manner (a / abrupt)
+      :conj-as-if (v2 / verkeren-01
+                  :ARG0 (o2 / onzekerheid-01
+                              :mod (g / groot))
+                  :ARG1 p))                      
+
+# ::id nl-0044
+# ::snt Ik begreep niet precies, waarom het zo belangrijk was, dat schapen heesters eten.
+(b / begrijpen-01
+   :polarity -
+   :ARG0 (i / ik)
+   :ARG1 (b / belangrijk 
+         :mod (z / zo)
+         :domain (e / eten-01
+               :ARG0 (s / schaap)
+               :ARG1 (h2 / heester)))
+         :ARG1-of (o / oorzaak-01
+                  :ARG0 (a / amr-unknown)))
+
+# ::id nl-0045
+# ::snt Maar toen merkte hij heel verstandig op:
+(c / contrast-01
+   :ARG2 (o / opmerken-01
+            :ARG0 (h / hij)
+            :manner (v / verstandig
+                    :mod (h2 / heel))
+            :time (t / toen)))
+
+# ::id nl-0046
+# ::snt De apebroodbomen zijn toch eerst klein voordat ze gaan groeien.
+(z / zijn-01
+   :ARG0 (b / bomen
+            :mod (b2 / brood
+                     :mod (a / aap)))
+   :ARG2 (k / klein)
+   :time (v / voordat
+            :op1 (g / groeien-01)
+            :ARG1 b))
+   :mod (t / toch)
+
+# ::id nl-0047
+# ::snt Dan rekt het zich uit en strekt eerst bedeesd een mooi klein onschadelijk sprietje naar de zon toe.
+(e / en
+   :op1 (u / uitrekken-02
+           :ARG0 (z / zaad
+                    :mod (k / klein)))
+   :op2 (s / strekken-01
+           :ARG0 z
+           :ARG1 (s2 / spriet-01
+                     :mod k
+                     :mod (m / mooi)
+                     :ARG0-of (s3 / schadelijk-02
+                                  :polarity -))
+           :direction (z2 / zon)
+           :manner (b / bedeesd)
+           :time (e2 / eerst))
+   :time (d / dan))
+
+# ::id nl-0048
+# ::snt Maar als het onkruid is moet men de plant uittrekken zodra men haar herkend heeft.
+(c / contrast-01
+   :ARG2 (m / moeten-01
+            :ARG2 (u / uittrekken-02
+                     :ARG0 (m2 / men)
+                     :ARG2 (p / plant)
+                     :time (z / zodra
+                              :time-of (h2 / herkennen-02
+                                       :ARG0 m2
+                                       :ARG1 p))))
+            :condition (o / onkruid))
+
+# ::id nl-0049
+# ::snt De bodem van de planeet krioelde ervan. 
+(k / krioelen-01
+   :ARG1 (b / bodem
+            :poss (p / planeet
+                        :mod (d / die)))
+   :ARG2 (e / ervan))
+
+# ::id nl-0050
+# ::snt En als de planeet klein is en er zijn te veel apebroodbomen, kan de planeet uit elkaar barsten.
+(e / en
+   :op1 (k / kunnen-01
+           :ARG1 (b / barsten-02
+                    :ARG1 (p / planeet)
+                    :manner (u / uit-elkaar))
+           :condition (e2 / en
+                          :op1 (k2 / klein
+                                   :degree (t / te)
+                                   :domain p)
+                          :op2 (h / have-quant-91
+                                  :ARG1 (b2 / bomen
+                                            :mod (b3 / brood
+                                                     :mod (a / aap)))
+                                  :ARG2 (v / veel
+                                          :degree (t2 / te))))))                                    
+
+# ::id nl-0051
+# ::snt Ik ben 24 jaar oud en moeder van een kind van tweeënhalf.
+(e / en
+   :op1 (l / leeftijd-03
+           :ARG1 (i / ik)
+           :ARG2 (t / temporal-quantity
+                    :quant 24
+                    :unit (j / jaar)))
+   :op2 (h / have-rel-role-91
+           :ARG0 i
+           :ARG1 (p / persoon
+                    :mod (k / kind)
+                    :age (t2 / temporal-quantity
+                             :quant 2.5
+                             :unit j))
+           :ARG2 (m / moeder)))
+
+# ::id nl-0052
+# ::snt De vader van mijn zoon en ik zijn sinds augustus uit elkaar.
+(s / scheiden-01
+   :ARG1 (i / ik)
+   :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                        :ARG1 (p2 / person
+                                  :ARG0-of (h2 / have-rel-role-91
+                                               :ARG1 i
+                                               :ARG2 (z / zoon)))
+                        :ARG2 (v / vader)))
+   :time (s2 / sinds
+             :op1 (d / date-entity
+                     :month 8)))
+
+# ::id nl-0053
+# ::snt Ik wil weer uitgaan, maar de vader van mijn zoon zegt dat hij niets met zijn zoon te maken wil hebben als ik dat doe.
+(h / have-concession-91
+   :ARG1 (z / zeggen-01
+            :ARG0 (p / persoon
+                     :ARG0-of (h2 / have-rel-role-91
+                                  :ARG1 (p2 / persoon
+                                            :ARG0-of (h3 / have-rel-role-91
+                                                         :ARG1 (i / ik)
+                                                         :ARG2 (z2 / zoon)))
+                                  :ARG2 (v / vader)))
+            :ARG1 (w / willen-01
+                     :polarity -
+                     :ARG0 p
+                     :ARG1 (h4 / have-to-do-with-04
+                               :ARG0 p
+                               :ARG1 p2
+                               :ARG2 (i2 / iets
+                                         :polarity -))
+                     :condition (d / doen-02
+                                   :ARG0 i
+                                   :ARG1 (d2 / dat))))
+   :ARG2 (w2 / willen-01
+             :ARG0 i
+             :ARG1 (d3 / daten-02
+                       :ARG0 i
+                       :mod (w3 / weer))))
+
+# ::id nl-0054
+# ::snt Hij is erg bezitterig en dominant, maar daar heeft hij geen recht op, aangezien we niet meer samen zijn.
+(c / contrast-01
+   :ARG1 (e / en
+            :op1 (b / bezitterig-03
+                    :ARG0 (h / hij)
+                    :degree (h2 / heel))
+            :op2 (d / dominant-01
+                    :ARG0 h
+                    :degree h2))
+   :ARG2 (r / recht-05
+            :polarity -
+            :ARG1 h
+            :ARG2 e
+            :ARG1-of (oorzaak / cause-01
+                              :ARG0 (s / samen
+                                       :domain (w / wij)
+                                       :time (n / niet-meer)))))
+
+# ::id nl-0055
+# ::snt Er gebeurt al te veel in zijn leven en hij denkt dat het tussen ons nog zou kunnen werken, maar ik heb hem al meerdere keren gezegd dat ik niet van hem houd en dat hij niet van mij houdt.
+(c / contrast-01
+      :ARG1 (e / en
+            :op1 (g / gebeuren-15
+                  :ARG1 (l / leven
+                        :poss (h / hij))
+                  :time (a / al)
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 (v / veel)
+                        :ARG3 (t / te)))
+            :op2 (d / denken-01
+                  :ARG0 h
+                  :ARG1 (m / mogelijk-01
+                        :ARG1 (w / werken-02
+                              :ARG1 (t2 / thing)
+                              :ARG3 (t3 / tussen
+                                    :op1 h
+                                    :op2 (i / ik))))))
+      :ARG2 (z / zeggen-01
+            :ARG0 i
+            :ARG1 (e2 / en
+                  :op1 (l2 / liefde-01
+                        :polarity -
+                        :ARG0 i
+                        :ARG1 h)
+                  :op2 (l3 / liefde-01
+                        :polarity -
+                        :ARG0 h
+                        :ARG1 i))
+            :ARG2 h
+            :frequency (m2 / meerdere)))
+
+# ::id nl-0056
+# ::snt Ik wil dat hij er ook zonder mij voor zijn zoon is.
+(w / willen-01
+      :ARG0 (i / ik)
+      :ARG1 (h / hij
+            :location (a / aanwezig-zijn-02)
+            :beneficiary (p / persoon
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 h
+                        :ARG2 (z / zoon)))
+            :concession (a2 / aanweig-zijn-01
+                  :ARG0 i
+                        :polarity -)))
+
+# ::id nl-0057
+# ::snt Maar hij heeft niemand in zijn familie en ze kunnen niet met elkaar overweg en hebben allemaal hun eigen problemen.
+(c / contrast-01
+   :ARG2 (e / en
+            :op1 (h / hebben-03
+                    :ARG0 (h2 / hij)
+                    :ARG1 (i / iemand
+                             :polarity -
+                             :part-of (f / familie
+                                         :poss h2)))
+            :op2 (o / opschieten-18
+                    :polarity -
+                    :ARG1 h2
+                    :ARG2 n)
+            :op3 (h3 / hebben-03
+                     :ARG0 (i / iedereen)
+                     :ARG1 (p / probleem
+                              :quant (m / meer)
+                              :poss i))))
+
+# ::id nl-0058
+# ::snt Ik wil me niet meer slecht voelen, en hoe langer hij in mijn buurt is, hoe slechter ik me voel.
+(e / en
+   :op1 (w / willen-01
+           :polarity -
+           :ARG0 (i / ik)
+           :ARG1 (v / voelen-01
+                    :ARG0 i
+                    :ARG1 (s / slecht-07
+                             :ARG1 i))
+           :time (n / niet-meer))
+   :op2 (c / correlate-91
+           :ARG1 (m / meer
+                    :ARG3-of (h / have-degree-91
+                                :ARG1 (b / be-located-at-91
+                                         :ARG1 (h2 / hij)
+                                         :ARG2 (b2 / buurt
+                                                   :op1 i))
+                                :ARG2 (l / lang-03
+                                         :ARG1 b)))
+           :ARG2 (m2 / meer
+                     :ARG3-of (h3 / have-degree-91
+                                  :ARG1 (v2 / voelen-01
+                                            :ARG0 i)
+                                  :ARG2 (s2 / slecht-07
+                                            :ARG1 i)))))
+
+# ::id nl-0059
+# ::snt Ik wil niet dat hij er niet voor zijn zoon is, want hij is een goede vader, of probeert dat tenminste te zijn.
+(w / willen-01
+   :polarity -
+   :ARG0 (i / ik)
+   :ARG1 (s / stoppen-01
+            :ARG0 (h / hij)
+            :ARG1 (b / be-located-at-91
+                     :ARG1 h
+                     :ARG2 (d / daar)
+                     :purpose (p / persoon
+                                 :ARG0-of (h2 / have-rel-role-91
+                                              :ARG1 h
+                                              :ARG2 (z / zoon)))))
+   :ARG1-of (o / oorzaak-01
+               :ARG0 (o2 / of
+                         :op1 (h3 / have-rel-role-91
+                                  :ARG0 h
+                                  :ARG2 (v / vader
+                                           :ARG1-of (g / goed-02)))
+                         :op2 (p2 / proberen-01
+                                  :ARG0 h
+                                  :ARG1 h3
+                                  :mod (t / tenminste)))))
+
+# ::id nl-0060
+# ::snt Ik geloof dat elk kind beide ouders nodig heeft, of ze nu samen zijn of niet.
+(g / geloven-01
+   :ARG0 (i / ik)
+   :ARG1 (b / behoeven-01
+            :ARG0 (k / kind
+                     :mod (e / elk))
+            :ARG1 (p / perseon
+                     :ARG0-of (h / have-rel-role-91
+                                 :ARG1 k
+                                 :ARG2 (o / ouder))
+                     :mod (b2 / beide))
+            :ARG1-of (r / regardless-91
+                        :ARG2 (o2 / of
+                                  :op1 (s / samen
+                                          :domain k)
+                                  :op2 (s2 / samen
+                                           :polarity -
+                                           :domain k)))))
+
+# ::id nl-0061
+# ::snt Laat hem je e-mails of sms’jes sturen.
+(l / laten-04
+   :mode imperatief
+   :ARG0 (j / jij)
+   :ARG1 (s / sturen-01
+            :ARG0 (h / hij)
+            :ARG1 (o / of
+                     :op1 (e / email)
+                     :op2 (s2 / sms-01
+                              :ARG2 j))
+            :ARG2 j))
+
+# ::id nl-0062
+# ::snt Bewaar ze allemaal.
+(b / bewaren-01
+   :mode imperatief
+   :ARG0 (j / jij)
+   :ARG1 (z / ze))
+
+# ::id nl-0016
+# ::snt Neem een advocaat in de arm en vraag de scheiding aan.
+(e / en
+   :mode imperatief
+   :op1 (i / inschakelen-01
+           :ARG0 (j / jij)
+           :ARG1 (a / advocaat))
+   :op2 (s / scheiding-01
+           :ARG0 j))
+
+# ::id nl-0064
+# ::snt Zeg tegen je ex dat alle communicatie via je advocaat moet verlopen.
+(z / zeggen-01
+   :mode imperatief
+   :ARG0 (j / jij)
+   :ARG1 (m / moeten-01
+            :ARG1 (v / via
+                     :ARG0 (c / communicatie-01
+                              :mod (a / alle))
+                     :ARG1 (a2 / advocaat
+                               :poss j)))
+   :ARG2 (p / persoon
+            :ARG0-of (h / have-rel-role-91
+                        :ARG1 j
+                        :ARG2 (p1 / partner)
+                        :time (e / ex))))
+
+# ::id nl-0065
+# ::snt Soms is een etentje, dat voor ons gewone mensen volkomen normaal lijkt, voor beroemdheden niet zo eenvoudig als we ons misschien voorstellen.
+(s / simpel-02
+      :frequency (s2 / soms)
+      :ARG1 (e / etentje
+            :ARG1-of (l / lijken-01 
+                  :ARG2 (m / mens
+                        :mod (g / gewoon)
+                        :domain (w / wij))
+                  :ARG1-of (v / volkomen-02)
+                  :ARG1 (n / normaal-03)))
+      :beneficiary (b / beroemdheid)
+      :ARG2-of (h / have-degree-91
+            :polarity -
+            :ARG1 e
+            :ARG3 (z / zo)
+            :ARG4 (v2 / voorstellen-01
+                  :ARG0 w
+                  :mod (m2 / misschien)
+                  :ARG1-of (m3 / mogelijk-01))))
+
+# ::id nl-0066
+# ::snt Een ster heeft veel contracten en verdient veel geld als ze die allemaal nakomt; zo niet, dan kan ze worden ontslagen of niet meer worden geboekt...
+(e / en
+   :op1 (e2 / en
+            :op1 (h / hebben-03
+                    :ARG0 (s / ster)
+                    :ARG1 (c / contract
+                             :quant (v / veel)))
+            :op2 (v2 / verdienen-01
+                     :ARG0 s
+                     :ARG1 (g / geld
+                              :quant (v3 / veel)))
+            :condition (n / nakomen-01
+                          :ARG0 s
+                          :ARG1 c
+                          :mod (a / allemaal)))
+   :op2 (h2 / have-condition-91
+            :ARG1 (o / of
+                     :op1 (m / mogelijk-01
+                             :ARG1 (o2 / ontslaan-02
+                                       :ARG1 s))
+                     :op2 (w / worden-01
+                             :polarity -
+                             :ARG1 (b / boeken-03
+                                      :ARG1 s)))
+            :ARG2 (n2 / nakomen-01
+                      :polarity -
+                      :ARG0 s
+                      :ARG1 c)))
+
+# ::id nl-0067
+# ::snt Er zijn twee soorten snuggere vrouwelijke sterren. 
+(s / soort
+   :quant 2
+   :mod (s2 / ster
+            :mod (v / vrouwlijk)
+            :ARG0-of (s3 / snugger-01)))
+
+# ::id nl-0068
+# ::snt Sommigen bezitten een zeer hoge integriteit en wijzen dergelijke uitnodigingen strikt af; anderen zijn goed in meespelen en gebruiken hun startkapitaal om hun doelen te bereiken. 
+(c / contrast-01
+   :ARG1 (e / en
+            :op1 (b / bezitten-01
+                    :ARG0 (s / sommigen)
+                    :ARG1 (i / integriteit
+                             :ARG1-of (h / hoog-02
+                                         :degree (h2 / heel))))
+            :op2 (a / afwijzen-02
+                    :ARG0 s
+                    :ARG1 (u / uitnodigen-01
+                             :ARG1 s
+                             :mod (d / dergelijke))
+                    :manner (s2 / strikt)))
+   :ARG2 (g / goed-03
+            :ARG1 (a2 / anderen)
+            :ARG2 (e2 / en
+                      :op1 (m / meespelen-02
+                              :ARG0 a)
+                      :op2 (g2 / gebruiken-01
+                               :ARG0 a
+                               :ARG1 (k / kapitaal
+                                        :mod (s3 / start)
+                                        :poss a)
+                               :ARG2 (b2 / bereiken-01
+                                         :ARG0 a
+                                         :ARG1 (d2 / doel
+                                                   :poss a))))))
+
+# ::id nl-0069
+# ::snt Het gerucht gaat dat zelfs sommige vrouwelijke supersterren op deze manier aan hun eerste rollen zijn gekomen.
+(g / gerucht-01
+   :ARG1 (k / komen-aan
+            :ARG0 (s / supersterren
+                     :mod (v / vrouwlijke)
+                     :quant (s2 / sommige)
+                     :mod (z / zelfs))
+            :ARG1 (r / rollen
+                     :ord (o / ordinal-entity
+                             :value 1)
+                     :poss s)
+            :manner (m / manier
+                       :mod (d / deze))))
+
+# ::id nl-0070
+# ::snt Na een paar drankjes grijpt de adverteerder of sponsor van de serie misschien de kans om zijn hoofd op de schouder van de vrouwelijke ster te laten rusten, haar kin aan te raken of haar op de wang te kussen, en “het maar accepteren” is de houding die vrouwelijke sterren meestal aannemen.
+(e / en
+   :op1 (m / mogelijk-01
+           :ARG1 (n / nemen-01
+                    :ARG0 (o / of
+                             :op1 (p / persoon
+                                     :ARG0-of (a / adverteren-01))
+                             :op2 (p2 / persoon
+                                      :ARG0-of (s / sponsor-01
+                                                  :ARG1 (s2 / serie)))
+                             :part (h / hoofd))
+                    :ARG1 (k / kans
+                             :mod (o2 / of
+                                      :op1 (r / rusten-01
+                                              :ARG0 o
+                                              :ARG1 h
+                                              :ARG2 (s3 / schouder
+                                                        :part-of (s4 / ster
+                                                                     :mod (v / vrouwlijk)
+                                                                     :part (k2 / kin)
+                                                                     :part (w / wang))))
+                                      :op2 (a2 / aanraken-01
+                                               :ARG0 o
+                                               :ARG1 k)
+                                      :op3 (k3 / kussen-01
+                                               :ARG0 o
+                                               :ARG1 w))))
+           :time (n2 / na
+                     :op1 (d / drinken-01
+                             :ARG0 o
+                             :quant (p3 / paar))))
+   :op2 (a3 / aannemen-01
+            :ARG0 s4
+            :ARG1 (h2 / houding
+                      :domain (v2 / verdragen-12
+                                  :ARG0 s4
+                                  :ARG1 (h3 / het)))
+            :frequency (v3 / vaak
+                           :ARG2-of (h4 / have-degree-91
+                                        :ARG1 a2
+                                        :ARG3 (m2 / meestal)))))
+
+# ::id nl-0071
+# ::snt Deze sterren spelen gewoon een rol; in werkelijkheid hebben ze allemaal een veel beter leven.
+(m / multi-sentence
+   :snt1 (s / spelen-02
+            :ARG0 (s2 / ster
+                      :mod (d / deze))
+            :ARG1 (r / rol)
+            :mod (g / gewoon))
+   :snt2 (h / hebben-03
+            :ARG0 (z / ze
+                     :mod (a / allemaal))
+            :ARG1 (l / leven
+                     :ARG1-of (h2 / have-degree-91
+                                  :ARG2 (g2 / goed-02
+                                            :ARG1 l)
+                                  :ARG3 (b / beter
+                                           :mod (v / veel))))
+            :mod (i / in-werkelijkheid)))
+
+# ::id nl-0072
+# ::snt Ik zie het ook zo – gewoon goedkope entertainers. 
+(z / zien-01
+   :ARG0 (i / ik)
+   :ARG1 (h / het
+            :manner (z2 / zo)
+            :ARG1-of (m / menen-01
+                        :ARG2 (p / persoon
+                                 :ARG0-of (e / entertain-01)
+                                 :ARG1-of (g / goedkoop-02))
+                        :mode neerbuigend))
+   :mod (o / ook))
+
+# ::id nl-0073
+# ::snt Hun reputatie op het Chinese platteland is wel logisch.
+(l / logisch-01
+   :ARG1 (r / reputatie
+            :poss (z / zij)
+            :location (l2 / land
+                          :name (n / naam
+                                   :op1 "China")
+                          :mod (p / platteland)))
+   :degree (w / wel))
+
+# ::id nl-0074
+# ::snt Mee eens!
+(i / instemmen-01
+   :mode expressief)
+
+# ::id nl-0075
+# ::snt Medeburgers, het is tijd dat we "nee" zeggen tegen anderen. 
+(t / tijd-01
+      :ARG1 (z / zeggen-01
+            :ARG0 (w / wij)
+            :ARG1 (n / nee
+                  :ARG2 (a / anderen))
+      :vocative (m / medeburgers)))
+
+# ::id nl-0076
+# ::snt Daarom moeten we het volgende behalen:
+(d / daarom
+   :ARG1 (m / moeten-01
+            :ARG1 (b / behalen-01
+                     :ARG0 (w / wij)
+                     :ARG1 (h / het
+                              :ARG1-of (v / volgende-01)))))
+
+# ::id nl-0077
+# ::snt 1. Financiering veiligstellen, de arbeidsomstandigheden en -structuren verbeteren en stimulansen bieden aan de honderdduizenden IT-professionals die naar de Verenigde Staten en andere landen over de hele wereld zijn geëmigreerd, zodat zij naar China terugkeren.
+(e / en
+   :li 1
+   :op1 (v / veiligstellen-01
+           :ARG1 (f / financiering-01))
+   :op2 (v2 / verbeteren-01
+            :ARG1 (e2 / en
+                      :op1 (o / omstandigheid
+                              :mod (a / arbeid-01))
+                      :op2 (s / structuren)))
+   :op3 (a2 / aanbieden-01
+            :ARG1 (s2 / stimuleren-01
+                      :ARG1 (p / professional
+                               :mod (t / technologie
+                                       :mod (i / informatie))
+                               :quant (m / meedere
+                                         :op1 100000)
+                               :ARG0-of (e3 / emigreren-01
+                                            :ARG2 (e4 / en
+                                                      :op1 (l / land
+                                                              :name (n / naam
+                                                                       :op1 "Verenigde"
+                                                                       :op2 "Staten"))
+                                                      :op2 (l2 / land
+                                                               :mod (a3 / andere)
+                                                               :location (o2 / over
+                                                                             :op1 (w / wereld))))
+                                            :purpose (t2 / terugkeren-01
+                                                         :ARG1 p
+                                                         :ARG4 (l3 / land
+                                                                   :name (n2 / naam
+                                                                             :op1 "China"))))))))
+
+# ::id nl-0078
+# ::snt 2. Meerdere door kernenergie aangedreven vliegdekschepen met gevechtsgroepen opzetten.
+(o / opzetten-01
+   :li 2
+   :ARG1 (g / groep
+            :mod (g2 / gevecht)
+            :ARG1-of (a / aandrijven-01
+                        :ARG0 (k / kernenergie))
+            :quant (m / meedere)
+            :mod (s / schip
+                    :mod (v / vliegdek))))
+
+# ::id nl-0079
+# ::snt 3. 5.000 geavanceerde gevechtsvliegtuigen van verschillende typen produceren.
+(p / produceren-01
+   :li 3
+   :ARG1 (v / vliegtuig
+            :quant 5000
+            :ARG0-of (g / gevecht-01)
+            :ARG1-of (g2 / geavanceerd-02)
+            :mod (t / type
+                    :mod (v2 / verschillend))))
+
+# ::id nl-0080
+# ::snt 4. Het onderzoek naar en de inzet van intercontinentale hogesnelheidsraketten versnellen, die in staat zijn raketafweersystemen te vernietigen en een bereik hebben van meer dan 10.000 zeemijl.
+(v / versnellen-01
+   :li 4
+   :ARG1 (e / en
+            :op1 (o / onderzoek-01
+                    :ARG1 (r / rakket
+                             :mod (i / intercontinentaal)
+                             :ARG1-of (s / snelheid-01
+                                         :ARG1-of (h / hoog-02))
+                             :ARG1-of (k / kunnen-01
+                                         :ARG2 (v2 / vernietigen-01
+                                                   :ARG1 (s2 / systeem
+                                                             :ARG2-of (a / afweer-01
+                                                                         :ARG3 (r2 / rakket)))))
+                             :ARG1-of (b / bereik-01
+                                         :ARG2 (d / distance-quantity
+                                                  :quant 10000
+                                                  :unit (m / mijl
+                                                           :mod (z / zee))))))
+            :op2 (i2 / inzet-01
+                     :ARG1 r)))
+
+# ::id nl-0081
+# ::snt 5. Kernproeven hervatten en militaire troepen in de ruimte stationeren.
+(e / en
+   :li 5
+   :op1 (h / hervatten-01
+           :ARG1 (b / beproeven-01
+                    :mod (k / kern)))
+   :op2 (s / stationeren-01
+           :ARG1 (t / troep
+                    :mod (m / militair))
+           :location (r / ruimte)))
+
+# ::id nl-0082
+# ::snt 6. Een voorraad van 1.000 kernbommen aanhouden die gelijkstaat aan 10 miljoen ton TNT, en, indien nodig, kernkoppen op alle korte- en middellangeafstandsraketten monteren.
+(e / en
+   :li 6
+   :op1 (a / aanhouden-01
+           :ARG1 (v / voorraden-01
+                    :ARG1 (b / bom
+                             :quant 1000
+                             :mod (k / kern)
+                             :ARG1-of (g / gelijk-01
+                                         :ARG2 (t / TNT
+                                                  :quant (m / mass-quantity
+                                                            :quant 10000000
+                                                            :unit (t2 / ton)))))))
+   :op2 (m2 / monteren-01
+            :ARG1 (k2 / kernkop)
+            :ARG2 (r / raket
+                     :ARG1-of (a2 / afstand-01
+                                  :ARG2 (k3 / kort-07))
+                     :ARG1-of (a3 / afstand-01
+                                  :ARG2 (m3 / middel
+                                            :mod (l / lang)))
+                     :mod (a4 / alle))
+            :condition (n / modig-01
+                          :ARG1 k2)))
+
+# ::id nl-0083
+# ::snt 7. 30 strategische kernonderzeeërs in stand houden die in staat zijn drie verwoestende nucleaire aanvallen op vijanden uit te voeren.
+(b / behouden-01
+   :li 7
+   :ARG1 (o / onderzeeër
+            :quant 30
+            :mod (k / kern)
+            :mod (s / strategie)
+            :ARG1-of (k2 / kunnen-01
+                         :ARG2 (u / uitvoeren-01
+                                  :ARG0 o
+                                  :ARG1 (a / aanvallen-01
+                                           :quant 3
+                                           :ARG1 (v / vijand)
+                                           :mod (n / necleair)
+                                           :ARG0-of (v2 / verwoesten-01))))))
+
+# ::id nl-0084
+# ::snt 8. Afzien van de toezegging om geen eerste nucleaire aanval uit te voeren.
+(a / afzien-01
+   :li 8
+   :ARG1 (t / toezeggen-01
+            :ARG2 (u / uitvoeren-01
+                     :polarity -
+                     :ARG1 (a2 / aanval-01
+                               :mod (n / nucleair)
+                               :ord (o / ordinal-entity
+                                       :value 1)))))
+
+# ::id nl-0085
+# ::snt 9. Het recht behouden om preventieve aanvallen uit te voeren wanneer de nationale veiligheid wordt bedreigd.
+(b / behouden-01
+   :li 9
+   :ARG1 (r / recht-05
+            :ARG2 (a / aanval-01
+                     :ARG2-of (p / preventief-01)
+                     :time (b2 / bedreigen-01
+                               :ARG2 (v / veligheid
+                                        :mod (n / nationaal))))))
+
+# ::id nl-0086
+# ::snt In de wedstrijd 1 meter springplankduiken voor mannen, die vanochtend plaatsvond, hebben onze deelnemers Lan Wei en Sheng Chen zich al gekwalificeerd voor de voorrondes.
+(k / kwalificeren-02
+   :ARG1 (e / en
+            :op1 (p / persoon
+                    :name (n / naam
+                             :op1 "Lan"
+                             :op2 "Wei")
+                    :ARG0-of (d / deelnemen-01
+                                :ARG1 (w / wij)))
+            :op2 (p2 / persoon
+                     :name (n2 / naam
+                               :op1 "Sheng"
+                               :op2 "Chen")
+                     :ARG0-of (d2 / deelnemen-01
+                                  :ARG1 w)))
+   :ARG2 (v / voorronde)
+   :time (a / al)
+   :subevent-of (w2 / wedstrijd
+                    :ARG0 (m / man)
+                    :ARG3 (d3 / duiken-01
+                              :location (s / springplank)
+                              :quant (d4 / distance-quantity
+                                         :quant 1
+                                         :unit (m2 / meter)))
+                    :ARG1-of (p3 / plaatsvinden-04
+                                 :time (d5 / date-entity
+                                           :dayperiod (o / ochtend)
+                                           :mod (v2 / vandaag)))))
+
+# ::id nl-0087
+# ::snt De resultaten van de waterpolowedstrijd voor vrouwen van vandaag zijn als volgt: 
+(l / luiden-01
+   :ARG1 (r / resultaten-01
+            :ARG1 (c / competeren-01
+                     :ARG0 (v / vrouw)
+                     :ARG3 (w2 / waterpolo)
+                     :time (v2 / vandaag))))
+
+# ::id nl-0088
+# ::snt het Hongaarse team versloeg het Canadese team met 13-7, het Franse team versloeg het Braziliaanse team met 10-9, het Australische team versloeg het Duitse team met 10-8, het Russische team versloeg het Nederlandse team met 7-6, het Amerikaanse team versloeg het Kazachse team met 10-5 en het Italiaanse team versloeg het Nieuw-Zeelandse team met 12-2.
+(e / en
+   :op1 (v / verslaan-01
+           :ARG0 (t / team
+                    :name (n / naam
+                             :op1 "Hongarije"))
+           :ARG1 (t2 / team
+                     :mod (l / land
+                             :name (n2 / naam
+                                       :op1 "Canada")))
+           :ARG2 (s / score-entity
+                    :op1 13
+                    :op2 7))
+   :op2 (v2 / verslaan-01
+            :ARG0 (t3 / team
+                      :name (n3 / naam
+                                :op1 "Frankrijk"))
+            :ARG1 (t4 / team
+                      :mod (l2 / land
+                               :name (n4 / naam
+                                         :op1 "Brazilië")))
+            :ARG2 (s2 / score-entity
+                      :op1 10
+                      :op2 9))
+   :op3 (v3 / verslaan-01
+            :ARG0 (t5 / team
+                      :name (n5 / naam
+                                :op1 "Australië"))
+            :ARG1 (t6 / team
+                      :mod (l3 / land
+                               :name (n6 / naam
+                                         :op1 "Duitsland")))
+            :ARG2 (s3 / score-entity
+                      :op1 10
+                      :op2 8))
+   :op4 (v4 / verslaan-01
+            :ARG0 (t7 / team
+                      :name (n7 / naam
+                                :op1 "Rusland"))
+            :ARG1 (t8 / team
+                      :mod (l4 / land
+                               :name (n8 / naam
+                                         :op1 "Nederland")))
+            :ARG2 (s4 / score-entity
+                      :op1 7
+                      :op2 6))
+   :op5 (v5 / verslaan-01
+            :ARG0 (t9 / team
+                      :mod (l5 / land
+                               :name (n9 / naam
+                                         :op1 "V.S.")))
+            :ARG1 (t10 / team
+                       :mod (l6 / land
+                                :name (n10 / naam
+                                           :op1 "Kazachstan")))
+            :ARG2 (s5 / score-entity
+                      :op1 10
+                      :op2 5))
+   :op6 (v6 / verslaan-01
+            :ARG0 (t11 / team
+                       :mod (l7 / land
+                                :name (n11 / naam
+                                           :op1 "Italië")))
+            :ARG1 (t12 / team
+                       :mod (l8 / land
+                                :name (n12 / naam
+                                           :op1 "Nieuw"
+                                           :op2 "Zeeland")))
+            :ARG2 (s6 / score-entity
+                      :op1 12
+                      :op2 2)))
+
+# ::id nl-0089
+# ::snt In totaal namen 12 teams deel aan de competitie.
+(d / deelnemen-01
+   :ARG0 (t / team
+            :quant 12
+            :ARG2-of (t2 / totaal-01))
+   :ARG1 (c / competeren-01))
+
+# ::id nl-0090
+# ::snt Hij zei dat dit bezoek van de vicepremier en de wederzijdse bezoeken van andere hooggeplaatste leiders uit China en Thailand een positieve bijdrage leverden aan de verdere ontwikkeling van de betrekkingen en de effectieve samenwerking op alle gebieden tussen beide landen.
+(z / zeggen-01
+   :ARG0 (h / hij)
+   :ARG1 (p / profiteren-01
+            :ARG0 (e / en
+                     :op1 (b / bezoeken-01
+                             :ARG0 (p2 / persoon
+                                       :ARG0-of (h2 / have-org-role-91
+                                                    :ARG2 (p3 / premier
+                                                              :mod (v / vice))))
+                             :mod (d / dit))
+                     :op2 (b2 / bezoeken-01
+                              :ARG0 (p4 / persoon
+                                        :ARG0-of (l / leiden-02
+                                                    :ARG1 (e2 / en
+                                                              :op1 (l2 / land
+                                                                       :name (n / naam
+                                                                                :op1 "China"))
+                                                              :op2 (l3 / land
+                                                                       :name (n2 / naam
+                                                                                 :op1 "Thailand"))))
+                                        :mod (p5 / plaats
+                                                 :ARG1-of (h3 / hoog-02))
+                                        :mod (a / andere))
+                              :mod (w / wederzijds)))
+            :ARG1 (b3 / bijdragen-02
+                      :ARG0 e
+                      :ARG1 (o / ontwikkelen-02
+                               :ARG1 (e3 / en
+                                         :op1 (b4 / betrekking-03
+                                                  :ARG0 l
+                                                  :ARG2 l2)
+                                         :op2 (s / samenwerken-01
+                                                 :ARG0 l2
+                                                 :ARG1 l2
+                                                 :ARG2 (g / gebied
+                                                          :mod (a2 / alle))
+                                                 :ARG0-of (e4 / effectief-04)))
+                               :mod (v2 / verder)))))
+
+# ::id nl-0091
+# ::snt Chavalit zei dat hij erg blij was met de ontmoeting met vicepresident Liu.
+(z / zeggen-01
+   :ARG0 (p / persoon
+            :name (n / naam
+                     :op1 "Chavalit"))
+   :ARG1 (t / tevreden-01
+            :ARG0 (o / ontmoeten-03
+                     :ARG0 p
+                     :ARG1 (p2 / persoon
+                               :name (n2 / naam
+                                         :op1 "Liu")
+                               :ARG0-of (h / have-org-role-91
+                                           :ARG2 (p3 / president
+                                                     :mod (v / vice)))))
+            :ARG1 p
+            :degree (h2 / heel)))
+
+# ::id nl-0092
+# ::snt Hij zei dat de economische ontwikkeling van China de afgelopen jaren in een stroomversnelling is geraakt, en dat de regering en de bevolking van Thailand daar buitengewoon blij mee zijn.
+(z / zeggen-01
+   :ARG0 (h / hij)
+   :ARG1 (e / en
+            :op1 (v / versnellen-01
+                    :ARG1 (o / ontwikkelen-02
+                             :ARG1 (e2 / economie
+                                       :poss (l / land
+                                                :name (n / naam
+                                                         :op1 "China"))))
+                    :time (j / jaar
+                             :mod (a / afgelopen)))
+            :op2 (t / tevreden-01
+                    :ARG1 (e3 / en
+                              :op1 (g / government-organization
+                                      :ARG0-of (r / regeren-01
+                                                  :ARG1 (l2 / land
+                                                            :name (n2 / naam
+                                                                      :op1 "Thailand"))))
+                              :op2 (p / persoon
+                                      :poss l2))
+                    :degree (b / buitengewoon))))
+
+# ::id nl-0093
+# ::snt Hij zei dat hij het eens was met de opvatting van Huaqing Liu dat Thailand en China verschillende vormen van economische en handelssamenwerking moeten blijven ontwikkelen.
+(z / zeggen-01
+   :ARG0 (h / hij)
+   :ARG1 (i / instemmen-01
+            :ARG0 h
+            :ARG1 (o / opvatting-02
+                     :ARG0 (p / persoon
+                              :name (n / naam
+                                       :op1 "Huaqing"
+                                       :op2 "Liu"))
+                     :ARG1 (m / moeten-01
+                              :ARG1 (b / blijven
+                                       :ARG0 (e / en
+                                                :op1 (l / land
+                                                        :name (n2 / naam
+                                                                  :op1 "Thailand"))
+                                                :op2 (l2 / land
+                                                         :name (n3 / naam
+                                                                   :op1 "China")))
+                                       :ARG1 (o2 / ontwikkelen-02
+                                                 :ARG0 e
+                                                 :ARG1 (v / vorm
+                                                          :mod (v2 / verschillend)
+                                                          :mod (s / samenwerken-01
+                                                                  :mod (h2 / handel)
+                                                                  :ARG2 (e2 / en
+                                                                            :op1 (e3 / economie))))))))
+            :ARG2 p))
+
+# ::id nl-0094
+# ::snt Vertegenwoordigers van China en Kirgizië hebben vandaag zes documenten ondertekend.
+(o / ondertekenen-01
+   :ARG0 (e / en
+            :op1 (p / persoon
+                    :ARG0-of (v / vertegenwoordigen-01
+                                :ARG1 (l / land
+                                         :name (n / naam
+                                                  :op1 "China"))))
+            :op2 (p2 / persoon
+                     :ARG0-of (v2 / vertegenwoordigen-01
+                                  :ARG1 (l2 / land
+                                            :name (n2 / naam
+                                                      :op1 "Kirgizië")))))
+   :ARG1 (d / document
+            :quant 6)
+   :time (v3 / vandaag))
+
+# ::id nl-0095
+# ::snt Premier Peng Li en de Kirgizische president Akajev woonden de ondertekeningsceremonie bij.
+(b / bijwonen-01
+   :ARG0 (e / en
+            :op1 (p / persoon
+                    :name (n / naam
+                             :op1 "Peng"
+                             :op2 "Li")
+                    :ARG0-of (h / have-org-role-91
+                                :ARG2 (p2 / premier)))
+            :op2 (p3 / persoon
+                     :name (n2 / naam
+                               :op1 "Akayev")
+                     :ARG0-of (h2 / have-org-role-91
+                                  :ARG1 (l / land
+                                           :name (n3 / naam
+                                                     :op1 "Kirgizië"))
+                                  :ARG2 (p4 / president))))
+   :ARG1 (c / ceremonie
+            :mod (o / ondertekenen-01)))
+
+# ::id nl-0096
+# ::snt De zes documenten zijn: een overeenkomst waarbij China een lening verstrekt aan de Kirgizische regering, een overeenkomst tot instelling van een gezamenlijk economisch en handelscomité tussen de Chinese en Kirgizische regeringen, een uitwisseling van nota’s betreffende de levering van materialen door China aan Kirgizië, een overeenkomst inzake culturele samenwerking tussen China en Kirgizië, ratificatie-instrumenten met betrekking tot de uitwisseling van consulaire verdragen tussen de twee landen, en een samenwerkingsovereenkomst tussen de Chinese Raad voor de Bevordering van de Internationale Handel en de Kirgizische Kamer van Koophandel en Industrie.
+(d / document
+   :quant 6
+   :domain (e / en
+              :op1 (o / overeenkomen-01
+                      :ARG0 (l / land
+                               :name (n / naam
+                                        :op1 "China"))
+                      :ARG1 (v / verstrekken-01
+                               :ARG0 l
+                               :ARG1 (l2 / lening-01
+                                         :ARG0 l
+                                         :ARG2 (g / government-organization
+                                                  :ARG0-of (r / regeren-01
+                                                              :ARG1 (l3 / land
+                                                                        :name (n2 / naam
+                                                                                  :op1 "Kirgizië"))))))
+                      :ARG2 g)
+              :op2 (o2 / overeenkomen-01
+                       :ARG0 l
+                       :ARG1 (i / instellen-01
+                                :ARG0 (e2 / en
+                                          :op1 l
+                                          :op2 g)
+                                :ARG1 (o3 / organisatie
+                                          :name (n3 / naam
+                                                    :op1 "Gemengd"
+                                                    :op2 "Economisch"
+                                                    :op3 "Handelscomité")))
+                       :ARG2 g)
+              :op3 (u / uitwisseling-01
+                      :ARG1 (n4 / notitie
+                                :topic (l4 / leveren-01
+                                           :ARG0 l
+                                           :ARG1 (m / materiaal)
+                                           :ARG2 l2)))
+              :op4 (o4 / overeenkomen-01
+                       :ARG0 l
+                       :ARG1 (s / samenwerken-01
+                                :ARG0 l
+                                :ARG1 l2
+                                :mod (c / cultureel))
+                       :ARG2 l2)
+              :op5 (i2 / instrument
+                       :instrument-of (r2 / ratificatie-01)
+                       :topic (u2 / uitwisseling-01
+                                  :ARG0 l
+                                  :ARG1 (v2 / verdrag
+                                            :mod (c2 / consulair))
+                                  :ARG2 l2))
+              :op6 (o5 / overeenkomen-01
+                       :ARG0 (g2 / government-organization
+                                 :name (n5 / naam
+                                           :op1 "Chinese"
+                                           :op2 "Raad"
+                                           :op3 "voor"
+                                           :op4 "de"
+                                           :op5 "Bevordering"
+                                           :op6 "van"
+                                           :op7 "de"
+                                           :op8 "Internationale"
+                                           :op9 "Handel"))
+                       :ARG2 o3
+                       :name (n6 / naam
+                                 :op1 "Kirgizische"
+                                 :op2 "Kamer"
+                                 :op3 "van"
+                                 :op4 "Koophandel"
+                                 :op5 "en"
+                                 :op6 "Industrie"))
+              :mod (s2 / samenwerken-01)))
+
+# ::id nl-0097
+# ::snt Akayev sprak zijn lof uit over de resultaten van de bijeenkomst met Peng Li.
+(p / prijzen-01
+   :ARG0 (p2 / persoon
+             :name (n / naam
+                      :op1 "Akayev"))
+   :ARG1 (r / resultaat-01
+            :ARG1 (b / bijeenkomst))
+   :accompanier (p3 / persoon
+                    :name (n2 / naam
+                              :op1 "Peng"
+                              :op2 "Li")))
+
+# ::id nl-0098
+# ::snt Aan het podium van de president hing een Japanse vlag.
+(h / hangen-01
+   :ARG1 (v / vlag
+            :mod (l / land
+                    :name (n / naam
+                             :op1 "Japan")))
+   :ARG2 (p / podium
+            :poss (p2 / persoon
+                      :ARG0-of (h2 / have-org-role-91
+                                   :ARG2 (p3 / president)))))
+
+# ::id nl-0099
+# ::snt De Japanse delegatie vliegt op de tweede dag naar Peking.
+(v / vliegen-01
+   :ARG1 (d / delegatie
+            :mod (l / land
+                    :name (n / naam
+                             :op1 "Japan")))
+   :destination (s / stad
+                   :name (n2 / naam
+                             :op1 "Peking"))
+   :time (d2 / dag
+             :ord (o / ordinal-entity
+                     :value 2)))
+
+# ::id nl-0100
+# ::snt Ze hebben nog onvoldoende ervaring met internationale wedstrijden.
+(v / voldoende-01
+   :polarity -
+   :ARG0 (z / zij)
+   :ARG1 (e / ervaring-01
+            :ARG0 z
+            :ARG1 (w / wedstrijd
+                     :mod (i / internationaal)))
+   :mod (n / nog))

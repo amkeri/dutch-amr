@@ -1,0 +1,1779 @@
+# ::id en-0001
+# ::snt Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, about the primeval forest.
+(s / see-01
+      :frequency 1
+      :ARG0 (ii / i)
+      :ARG1 (p / picture
+            :mod (m / magnificent)
+            :location (b / book
+                  :name (n / name
+                        :op1 "True"
+                        :op2 "Stories"
+                        :op3 "from"
+                        :op4 "Nature")
+                  :topic (f / forest
+                        :mod (p2 / primeval))))
+      :time (a / age-01
+            :ARG1 ii
+            :ARG2 (t / temporal-quantity
+                  :quant 6
+                  :unit (y / year))))
+
+# ::id en-0002
+# ::snt I pondered deeply, then, over the adventures of the jungle.
+(p / ponder-01
+      :ARG0 (ii / i)
+      :ARG1 (a / adventure
+            :mod (j / jungle))
+      :ARG1-of (d / deep-02)
+      :time (t / then))
+
+# ::id en-0003
+# ::snt I showed my masterpiece to the grown-ups, and asked them whether the drawing frightened them.
+(a / and
+      :op1 (s / show-01
+            :ARG0 (ii / i)
+            :ARG1 (m / masterpiece
+                  :poss ii)
+            :ARG2 (g / grown-up))
+      :op2 (a2 / ask-01
+            :ARG0 ii
+            :ARG1 (t / truth-value
+                  :polarity-of (f / frighten-01
+                        :ARG0 (d / draw-01)
+                        :ARG1 g))
+            :ARG2 g))
+
+# ::id en-0004
+# ::snt But they answered: "Frighten? Why should any one be frightened by a hat?"
+(c / contrast-01
+      :ARG2 (a / answer-01
+            :ARG0 (t / they)
+            :ARG2 (r / recommend-01
+                  :ARG1 (f / frighten-01
+                        :ARG0 (h / hat)
+                        :ARG1 (a2 / anyone))
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (a3 / amr-unknown)))))
+
+# ::id en-0005
+# ::snt My drawing was not a picture of a hat.
+(p / picture-01
+      :polarity -
+      :ARG1 (h / hat)
+      :domain (d / draw-01
+            :ARG0 (ii / i)))
+
+# ::id en-0006
+# ::snt They always need to have things explained. 
+(n / need-01
+      :ARG0 (t / they)
+      :ARG1 (e / explain-01
+            :ARG1 (t2 / thing))
+      :time (a / always))
+
+# ::id en-0007
+# ::snt That is why, at the age of six, I gave up what might have been a magnificent career as a painter. 
+(c / cause-01
+      :ARG0 (t / that)
+      :ARG1 (g / give-up-07
+            :ARG0 (ii / i)
+            :ARG1 (c2 / career
+                  :topic (p / person
+                        :ARG0-of (p2 / paint-02))
+                  :mod (m / magnificent
+                        :ARG1-of (p3 / possible-01)))
+            :time (a / age-01
+                  :ARG1 ii
+                  :ARG2 (t2 / temporal-quantity
+                        :quant 6
+                        :unit (y / year)))))
+
+# ::id en-0008
+# ::snt I had been disheartened by the failure of my Drawing Number One and my Drawing Number Two.
+(d / dishearten-01
+      :ARG0 (f / fail-01
+            :ARG1 (a / and
+                  :op1 (t / thing
+                        :name (n / name
+                              :op1 "Drawing"
+                              :op2 "Number"
+                              :op3 "One")
+                        :poss (ii / i))
+                  :op2 (t2 / thing
+                        :name (n2 / name
+                              :op1 "Drawing"
+                              :op2 "Number"
+                              :op3 2)
+                        :poss ii)))
+      :ARG1 ii)
+
+# ::id en-0009
+# ::snt Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to them.
+(a / and
+      :op1 (u / understand-01
+            :polarity -
+            :ARG0 (g / grown-up)
+            :ARG1 (a2 / anything)
+            :time (e / ever)
+            :mod (b / by-oneself))
+      :op2 (t / tire-01
+            :ARG0 (e2 / explain-01
+                  :ARG0 (c / child)
+                  :ARG1 (t2 / thing)
+                  :ARG2 g
+                  :time (a3 / always)
+                  :time (f / forever))
+            :ARG1 g))
+
+# ::id en-0010
+# ::snt I have flown a little over all parts of the world. 
+(f / fly-01
+      :ARG1 (ii / i)
+      :path (o / over
+            :op1 (p / part
+                  :mod (a / all)
+                  :part-of (w / world)))
+      :duration (l / little))
+
+# ::id en-0011
+# ::snt Then I would never talk to that person about boa constrictors, or primeval forests, or stars. 
+(t / talk-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (o / or
+            :op1 (c / constrict-01
+                  :ARG1 (b / boa))
+            :op2 (f / forest
+                  :mod (p / primeval))
+            :op3 (s / star))
+      :ARG2 (p2 / person
+            :mod (t2 / that))
+      :time (t3 / then)
+      :time (e / ever))
+
+# ::id en-0012
+# ::snt And the grown-up would be greatly pleased to have met such a sensible man.
+(a / and
+      :op2 (p / please-01
+            :ARG0 (m / meet-02
+                  :ARG0 (g / grown-up)
+                  :ARG1 (m2 / man
+                        :ARG1-of (s / sense-02
+                              :mod (s2 / such))))
+            :ARG1 g
+            :degree (g2 / great)))
+
+# ::id en-0013
+# ::snt It was a question of life or death for me.  
+(q / question-01
+      :ARG1 (o / or
+            :op1 (l / live-01
+                  :ARG0 (ii / i))
+            :op2 (d / die-01
+                  :ARG1 ii))
+      :ARG2 ii)
+
+# ::id en-0014
+# ::snt The first night, then, I went to sleep on the sand, a thousand miles from any human habitation.
+(g / go-02
+      :ARG0 (ii / i)
+      :ARG1 (s / sleep-01
+            :ARG0 ii
+            :location (s2 / sand)
+            :location (r / relative-position
+                  :op1 (t / thing
+                        :ARG1-of (h / habitate-01
+                              :ARG0 (h2 / human)))
+                  :quant (d / distance-quantity
+                        :quant 1000
+                        :unit (m / mile))))
+      :time (d2 / date-entity
+            :dayperiod (n / night)
+            :ord (o / ordinal-entity
+                  :value 1)))
+
+# ::id en-0015
+# ::snt Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment.
+(s / stare-01
+      :ARG0 (ii / i
+            :part (e / eye
+                  :ARG0-of (s2 / start-01
+                        :ARG1-of (f / fair-04)
+                        :source (h / head)))
+            :part h)
+      :ARG1 (a / apparition
+            :mod (s3 / sudden)
+            :mod (t / this))
+      :time (n / now)
+      :manner e
+      :manner (a2 / astonish-01
+            :ARG1 ii))
+
+# ::id en-0016
+# ::snt And yet my little man seemed neither to be straying uncertainly among the sands, nor to be fainting from fatigue or hunger or thirst or fear. 
+(a / and
+      :op2 (s / seem-01
+            :polarity -
+            :ARG1 (o / or
+                  :op1 (s2 / stray-01
+                        :ARG0 (m / man
+                              :mod (l / little)
+                              :poss (ii / i))
+                        :ARG1 (a2 / among
+                              :op1 (s3 / sand))
+                        :manner (c / certain
+                              :polarity -))
+                  :op2 (f / faint-01
+                        :ARG0 m
+                        :ARG1-of (c2 / cause-01
+                              :ARG0 (o2 / or
+                                    :op1 (t / tire-01
+                                          :ARG1 m)
+                                    :op2 (h / hunger-01
+                                          :ARG0 m)
+                                    :op3 (t2 / thirst-01
+                                          :ARG0 m)
+                                    :op4 (f2 / fear-01
+                                          :ARG0 m)))))
+            :mod (y / yet)))
+
+# ::id en-0017
+# ::snt And in answer he repeated, very slowly, as if he were speaking of a matter of great consequence:
+(a / and
+      :op2 (r / repeat-01
+            :ARG0 (h / he)
+            :ARG1-of (s / slow-05
+                  :degree (v / very))
+            :manner (s2 / speak-01
+                  :ARG0 h
+                  :ARG1 (m / matter
+                        :ARG1-of (c / consequence-03
+                              :degree (g / great))))
+            :ARG2-of (a2 / answer-01
+                  :ARG0 h)))
+
+# ::id en-0018
+# ::snt I took out of my pocket a sheet of paper and my fountain-pen.
+(t / take-out-11
+      :ARG0 (ii / i)
+      :ARG1 (a / and
+            :op1 (s / sheet
+                  :consist-of (p / paper))
+            :op2 (p2 / pen
+                  :mod (f / fountain)
+                  :poss ii))
+      :source (p3 / pocket
+            :poss ii))
+
+# ::id en-0019
+# ::snt A boa constrictor is a very dangerous creature, and an elephant is very cumbersome. 
+(a / and
+      :op1 (c / creature
+            :ARG0-of (e / endanger-01
+                  :degree (v / very))
+            :domain (c2 / constrictor
+                  :mod (b / boa)))
+      :op2 (c3 / cumbersome
+            :degree (v2 / very)
+            :domain (e2 / elephant)))
+
+# ::id en-0020
+# ::snt So then I made a drawing.
+(c / cause-01
+      :ARG1 (d / draw-01
+            :ARG0 (ii / i)
+            :time (t / then)))
+
+# ::id en-0021
+# ::snt My friend smiled gently and indulgently.
+(s / smile-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend)))
+      :ARG1-of (g / gentle-01)
+      :ARG2-of (ii2 / indulge-01))
+
+# ::id en-0022
+# ::snt "You see yourself," he said, "that this is not a sheep. This is a ram. It has horns."
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (s2 / see-01
+            :ARG0 (y / you)
+            :ARG1 (r / ram
+                  :domain (t / this)
+                  :mod (s3 / sheep
+                        :polarity -)
+                  :ARG0-of (h2 / have-03
+                        :ARG1 (h3 / horn))))
+      :ARG2 y)
+
+# ::id en-0023
+# ::snt So then I did my drawing over once more.
+(c / cause-01
+      :ARG1 (d / draw-01
+            :ARG0 (ii / i)
+            :mod (a / again
+                  :mod (o / once))
+            :time (t / then)
+            :mod (o2 / over)))
+
+# ::id en-0024
+# ::snt But it was rejected too, just like the others.
+(c / contrast-01
+      :ARG2 (r / reject-01
+            :ARG1 (ii / it)
+            :mod (t / too)
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (r3 / reject-01
+                        :ARG1 (o / other))
+                  :mod (j / just))))
+
+# ::id en-0025
+# ::snt By this time my patience was exhausted, because I was in a hurry to start taking my engine apart.
+(c / cause-01
+      :ARG0 (h / hurry-01
+            :ARG1 (ii / i)
+            :ARG2 (s / start-01
+                  :ARG0 ii
+                  :ARG1 (t / take-01
+                        :ARG0 ii
+                        :ARG1 (e / engine
+                              :poss ii)
+                        :ARG2 (a / apart))))
+      :ARG1 (e2 / exhaust-01
+            :ARG1 (p / patient-01
+                  :ARG1 ii)
+            :time (t2 / this)))
+
+# ::id en-0026
+# ::snt I was very surprised to see a light break over the face of my young judge. 
+(s / surprise-01
+      :ARG0 (s2 / see-01
+            :ARG0 (ii / i)
+            :ARG1 (b / break-over-12
+                  :ARG1 (l / light)
+                  :location (f / face
+                        :part-of (p / person
+                              :mod (y / young)
+                              :ARG0-of (h / have-org-role-91
+                                    :ARG3 (j / judge-01))
+                              :poss ii))))
+      :ARG1 ii
+      :degree (v / very))
+
+# ::id en-0027
+# ::snt The little prince, who asked me so many questions, never seemed to hear the ones I asked him. 
+(s / seem-01
+      :polarity -
+      :ARG1 (h / hear-01
+            :ARG0 (p / prince
+                  :mod (l / little)
+                  :ARG0-of (a / ask-01
+                        :ARG1 (q / question-01
+                              :quant (m / many
+                                    :mod (s2 / so)))
+                        :ARG2 (ii / i)))
+            :ARG1 (q2 / question-01
+                  :ARG1-of (a2 / ask-01
+                        :ARG0 ii
+                        :ARG2 p)))
+      :time (e / ever))
+
+# ::id en-0028
+# ::snt I had thus learned a second fact of great importance: this was that the planet the little prince came from was scarcely any larger than a house!
+(l / learn-01
+      :ARG0 (ii / i)
+      :ARG1 (f / fact
+            :ord (o / ordinal-entity
+                  :value 2)
+            :ARG1-of (ii2 / important-01
+                  :degree (g / great))
+            :ARG1-of (m / mean-01
+                  :ARG2 (h / have-degree-91
+                        :ARG1 (p / planet
+                              :ARG2-of (c / come-03
+                                    :ARG1 (p2 / prince
+                                          :mod (l2 / little))))
+                        :ARG2 (l3 / large)
+                        :ARG3 (m2 / more
+                              :mod (a / any
+                                    :degree (s / scarce)))
+                        :ARG4 (h2 / house))))
+      :mod (t / thus))
+
+# ::id en-0029
+# ::snt This asteroid has only once been seen through the telescope, that was by a Turkish astronomer, in 1909.
+(s / see-01
+      :frequency 1
+      :ARG0 (p / person
+            :mod (c / country
+                  :name (n / name
+                        :op1 "Turkey"))
+            :ARG0-of (o / observe-01))
+      :ARG1 (a / asteroid
+            :mod (t / this))
+      :mod (o2 / only)
+      :instrument (t2 / telescope)
+      :time (d / date-entity
+            :year 1909))
+
+# ::id en-0030
+# ::snt But he was in Turkish costume, and so nobody would believe what he said. 
+(c / contrast-01
+      :ARG2 (c2 / costume-01
+            :ARG1 (h / he)
+            :ARG2 (c3 / country
+                  :name (n / name
+                        :op1 "Turkey"))
+            :ARG0-of (c4 / cause-01
+                  :ARG1 (b / believe-01
+                        :ARG0 (n2 / nobody)
+                        :ARG1 (t / thing
+                              :ARG1-of (s / say-01
+                                    :ARG0 h))))))
+
+# ::id en-0031
+# ::snt In 1920 the astronomer gave his demonstration all over again, dressed with impressive style and elegance.
+(d / demonstrate-01
+      :ARG0 (p / person
+            :ARG0-of (o / observe-01)
+            :ARG1-of (d2 / dress-01
+                  :ARG2 (a / and
+                        :op1 (s / style)
+                        :op2 (e / elegant)
+                        :ARG0-of (ii / impress-01))))
+      :mod (a2 / again
+            :mod (a3 / all-over))
+      :time (d3 / date-entity
+            :year 1920))
+
+# ::id en-0032
+# ::snt When you tell them that you have made a new friend, they never ask you any questions about essential matters. 
+(a / ask-01
+      :polarity -
+      :ARG0 (t / they)
+      :ARG1 (q / question-01
+            :ARG0 t
+            :ARG1 (m / matter
+                  :mod (e / essential))
+            :ARG2 (y / you))
+      :ARG2 y
+      :time (e2 / ever)
+      :time (t2 / tell-01
+            :ARG0 y
+            :ARG1 (m2 / make-01
+                  :ARG0 y
+                  :ARG1 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 y
+                              :ARG2 (f / friend))
+                        :ARG1-of (n / new-02)))
+            :ARG2 t))
+
+# ::id en-0033
+# ::snt They would shrug their shoulders, and treat you like a child.
+(a / and
+      :op1 (s / shrug-01
+            :ARG0 (t / they
+                  :part (s2 / shoulder))
+            :ARG1 s2)
+      :op2 (t2 / treat-01
+            :ARG0 t
+            :ARG1 (y / you)
+            :ARG2 (c / child)))
+
+# ::id en-0034
+# ::snt Children should always show great forbearance toward grown-up people.
+(r / recommend-01
+      :ARG1 (s / show-01
+            :ARG0 (c / child)
+            :ARG1 (f / forbearance
+                  :mod (g / great)
+                  :prep-toward (p / person
+                        :ARG1-of (g2 / grown-up-04)))
+            :time (a / always)))
+
+# ::id en-0035
+# ::snt I should have liked to begin this story in the fashion of the fairy-tales. 
+(r / recommend-01
+      :ARG1 (l / like-02
+            :ARG0 (ii / i)
+            :ARG1 (b / begin-01
+                  :ARG0 ii
+                  :ARG1 (s / story
+                        :mod (t / this))
+                  :manner (f / fashion
+                        :mod (t2 / tale
+                              :mod (f2 / fairy))))))
+
+# ::id en-0036
+# ::snt Six years have already passed since my friend went away from me, with his sheep.  
+(p / pass-03
+      :ARG1 (t / temporal-quantity
+            :quant 6
+            :unit (y / year))
+      :time (a / already)
+      :time (s / since
+            :op1 (g / go-02
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))
+                  :ARG2 (a2 / away
+                        :op1 ii)
+                  :accompanier (s2 / sheep
+                        :poss p2))))
+
+# ::id en-0037
+# ::snt And I may become like the grown-ups who are no longer interested in anything but numbers.   
+(a / and
+      :op2 (p / possible-01
+            :ARG1 (b / become-01
+                  :ARG1 (ii / i)
+                  :ARG2 (r / resemble-01
+                        :ARG1 ii
+                        :ARG2 (g / grown-up
+                              :ARG1-of (ii2 / interest-01
+                                    :ARG2 (a2 / anything
+                                          :ARG2-of (e / except-01
+                                                :ARG1 (n / number)))
+                                    :time (n2 / no-longer)))))))
+
+# ::id en-0038
+# ::snt I fumble along as best I can and I hope generally to be fair-to-middling.
+ (a / and
+      :op1 (f / fumble-01
+            :ARG0 (ii / i)
+            :manner (a2 / along)
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (g / good-03
+                        :ARG1 ii
+                        :ARG2 f)
+                  :ARG3 (e / equal)
+                  :ARG4 (p / possible-01
+                        :ARG1 f)))
+      :op2 (h2 / hope-01
+            :ARG0 ii
+            :ARG1 (f2 / fair-01
+                  :ARG1 ii
+                  :manner (m / middle))
+            :ARG1-of (g2 / general-02)))
+
+# ::id en-0039
+# ::snt He thought, perhaps, that I was like himself. 
+(t / think-01
+      :ARG0 (h / he)
+      :ARG1 (r / resemble-01
+            :ARG1 (ii / i)
+            :ARG2 h)
+      :ARG1-of (p / possible-01))
+
+# ::id en-0040
+# ::snt But I, alas, do not know how to see sheep through the walls of boxes.  
+(c / contrast-01
+      :ARG2 (k / know-03
+            :polarity -
+            :ARG0 (ii / i)
+            :ARG1 (t / thing
+                  :manner-of (s / see-01
+                        :ARG0 ii
+                        :ARG1 (s2 / sheep)
+                        :location (t2 / through
+                              :op1 (w / wall
+                                    :part-of (b / box)))))
+            :mod (a / alas
+                  :mode expressive)))
+
+# ::id en-0041
+# ::snt As each day passed I would learn, in our talk, something about the little prince's planet, his departure from it, his journey.
+(l / learn-01
+      :ARG0 (ii / i)
+      :ARG1 (s / something
+            :topic (a / and
+                  :op1 (p / planet
+                        :poss (p2 / prince
+                              :mod (l2 / little)))
+                  :op2 (d / depart-01
+                        :ARG0 p2
+                        :ARG1 p)
+                  :op3 (j / journey-01
+                        :ARG0 p2)))
+      :time (p3 / pass-03
+            :ARG1 (d2 / day
+                  :mod (e / each)))
+      :subevent-of (t / talk-01
+            :ARG0 (w / we)))
+
+# ::id en-0042
+# ::snt It was in this way that I heard, on the third day, about the catastrophe of the baobabs.
+(h / hear-01
+      :ARG0 (ii / i)
+      :ARG1 (c / catastrophe
+            :topic (b / baobab))
+      :time (d / day
+            :ord (o / ordinal-entity
+                  :value 3))
+      :manner (w / way
+            :mod (t / this)))
+
+# ::id en-0043
+# ::snt For the little prince asked me abruptly--as if seized by a grave doubt:
+(c / cause-01
+      :ARG1 (a / ask-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG2 (ii / i)
+            :manner (a2 / abrupt)
+            :manner (s / seize-01
+                  :ARG0 (d / doubt-01
+                        :mod (g / grave))
+                  :ARG1 p)))
+
+# ::id en-0044
+# ::snt I did not understand why it was so important that sheep should eat little bushes.
+(u / understand-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (t / thing
+            :ARG0-of (c / cause-01
+                  :ARG1 (r / recommend-01
+                        :ARG1 (e / eat-01
+                              :ARG0 (s / sheep)
+                              :ARG1 (b / bush
+                                    :mod (l / little)))))))
+
+# ::id en-0045
+# ::snt But he made a wise comment:
+(c / contrast-01
+      :ARG2 (c2 / comment-01
+            :ARG0 (h / he)
+            :mod (w / wise)))
+
+# ::id en-0046
+# ::snt "Before they grow so big, the baobabs start out by being little."
+(s / start-out-05
+      :ARG0 (b / baobab)
+      :manner (l / little
+            :domain b)
+      :time (b2 / before
+            :op1 (g / grow-01
+                  :ARG1 b
+                  :ARG2 (b3 / big
+                        :ARG2-of (h / have-degree-91
+                              :ARG1 b
+                              :ARG3 (s2 / so))))))
+
+# ::id en-0047
+# ::snt Then this little seed will stretch itself and begin--timidly at first--to push a charming little sprig inoffensively upward toward the sun.
+(a / and
+      :op1 (s / stretch-01
+            :ARG0 (s2 / seed
+                  :mod (l / little)
+                  :mod (t / this)
+                  :ARG1-of s))
+      :op2 (b / begin-01
+            :ARG0 s2
+            :ARG1 (p / push-01
+                  :ARG0 s2
+                  :ARG1 (s3 / sprig
+                        :mod (l2 / little)
+                        :ARG0-of (c / charm-01))
+                  :ARG2 (u / upward)
+                  :direction (t2 / toward
+                        :op1 (s4 / sun))
+                  :manner (o / offensive
+                        :polarity -))
+            :manner (c2 / cautious
+                  :time (a2 / at-first)))
+      :time (t3 / then))
+
+# ::id en-0048
+# ::snt But when it is a bad plant, one must destroy it as soon as possible, the very first instant that one recognizes it.
+(c / contrast-01
+      :ARG2 (o / obligate-01
+            :ARG1 (o2 / one)
+            :ARG2 (d / destroy-01
+                  :ARG0 o2
+                  :ARG1 (p / plant
+                        :ARG1-of (b / bad-07))
+                  :time (ii / instant
+                        :ord (o3 / ordinal-entity
+                              :value 1
+                              :degree (v / very))
+                        :time-of (r / recognize-02
+                              :ARG0 o2
+                              :ARG1 p))
+                  :time (s / soon
+                        :ARG2-of (h / have-degree-91
+                              :ARG1 d
+                              :ARG3 (e / equal)
+                              :ARG4 (p2 / possible-01
+                                    :ARG1 d))))
+            :condition p))
+
+# ::id en-0049
+# ::snt The soil of that planet was infested with them.
+(ii / infest-01
+      :ARG1 (s / soil
+            :part-of (p / planet
+                  :mod (t / that)))
+      :ARG2 (t2 / they))
+
+# ::id en-0050
+# ::snt And if the planet is too small, and the baobabs are too many, they split it in pieces.
+(a / and
+      :op2 (s / split-01
+            :ARG0 (t / they)
+            :ARG1 (p / planet)
+            :manner (p2 / piece)
+            :condition (a2 / and
+                  :op1 (h / have-degree-91
+                        :ARG1 p
+                        :ARG2 (s2 / small)
+                        :ARG3 (t2 / too))
+                  :op2 (h2 / have-degree-91
+                        :ARG1 (b / baobab)
+                        :ARG2 (m / many)
+                        :ARG3 (t3 / too)))))
+
+# ::id en-0051
+# ::snt I’m 24 years old and the mother of a two-and-a-half-year-old child.
+(a / and
+      :op1 (a2 / age-01
+            :ARG1 (ii / i)
+            :ARG2 (t / temporal-quantity
+                  :quant 24
+                  :unit (y / year)))
+      :op2 (h / have-rel-role-91
+            :ARG0 ii
+            :ARG1 (p / person
+                  :age (t2 / temporal-quantity
+                        :quant 2.5
+                        :unit (y2 / year)))
+            :ARG2 (m / mother)))
+
+# ::id en-0052
+# ::snt My son’s father and I have been separated since August.
+(s / separate-01
+      :ARG1 (ii / i)
+      :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (s2 / son)))
+                  :ARG2 (f / father)))
+      :time (s3 / since
+            :op1 (d / date-entity
+                  :month 8)))
+
+# ::id en-0053
+# ::snt I’d like to start dating again, but my son’s father says he doesn’t want anything to do with his son if I do that.
+(h / have-concession-91
+      :ARG1 (s / say-01
+            :ARG0 (p / person
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 (p2 / person
+                              :ARG0-of (h3 / have-rel-role-91
+                                    :ARG1 (ii / i)
+                                    :ARG2 (s2 / son)))
+                        :ARG2 (f / father)))
+            :ARG1 (w / want-01
+                  :polarity -
+                  :ARG0 p
+                  :ARG1 (h4 / have-to-do-with-04
+                        :ARG0 p
+                        :ARG1 p2
+                        :ARG2 (a / anything))
+                  :condition (d / do-02
+                        :ARG0 ii
+                        :ARG1 (t / that))))
+      :ARG2 (l / like-02
+            :ARG0 ii
+            :ARG1 (s3 / start-01
+                  :ARG0 ii
+                  :ARG1 (d2 / date-02
+                        :ARG0 ii
+                        :mod (a2 / again)))))
+                        
+# ::id en-0054
+# ::snt He’s very possessive and controlling, but he has no right to be, since we’re no longer together.
+(c / contrast-01
+      :ARG1 (a / and
+            :op1 (p / possessive-03
+                  :ARG0 (h / he)
+                  :degree (v / very))
+            :op2 (c2 / control-01
+                  :ARG0 h
+                  :degree v))
+      :ARG2 (r / right-05
+            :polarity -
+            :ARG1 h
+            :ARG2 a
+            :ARG1-of (c3 / cause-01
+                  :ARG0 (t / together
+                        :domain (w / we)
+                        :time (n / no-longer)))))
+
+# ::id en-0055
+# ::snt There’s already too much going on in his life, and he thinks things could work out between us, but I’ve told him several times that I don’t love him and he doesn’t love me.
+(c / contrast-01
+      :ARG1 (a / and
+            :op1 (g / go-on-15
+                  :ARG1 (l / life
+                        :poss (h / he))
+                  :time (a2 / already)
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 (m / much)
+                        :ARG3 (t / too)))
+            :op2 (t2 / think-01
+                  :ARG0 h
+                  :ARG1 (p / possible-01
+                        :ARG1 (w / work-out-02
+                              :ARG1 (t3 / thing)
+                              :ARG3 (b / between
+                                    :op1 h
+                                    :op2 (ii / i))))))
+      :ARG2 (t4 / tell-01
+            :ARG0 ii
+            :ARG1 (a3 / and
+                  :op1 (l2 / love-01
+                        :polarity -
+                        :ARG0 ii
+                        :ARG1 h)
+                  :op2 (l3 / love-01
+                        :polarity -
+                        :ARG0 h
+                        :ARG1 ii))
+            :ARG2 h
+            :frequency (s / several)))
+
+# ::id en-0056
+# ::snt I want him to be there for his son even without me.
+(w / want-01
+      :ARG0 (ii / i)
+      :ARG1 (h / he
+            :location (t / there)
+            :beneficiary (p / person
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 h
+                        :ARG2 (s / son)))
+            :manner (a / accompany-01
+                  :polarity -
+                  :ARG0 ii)))
+
+# ::id en-0057
+# ::snt But he has no one in his family, and they don’t get along, and everyone has their own problems.
+(c / contrast-01
+      :ARG2 (a / and
+            :op1 (h / have-03
+                  :ARG0 (h2 / he)
+                  :ARG1 (n / no-one
+                        :part-of (f / family
+                              :poss h2)))
+            :op2 (g / get-along-18
+                  :polarity -
+                  :ARG1 h2
+                  :ARG2 n)
+            :op3 (h3 / have-03
+                  :ARG0 (e / everyone)
+                  :ARG1 (p / problem
+                        :poss e))))
+
+# ::id en-0058
+# ::snt I don’t want to feel bad anymore, and the longer he’s around me, the worse I feel.
+(a / and
+      :op1 (w / want-01
+            :polarity -
+            :ARG0 (ii / i)
+            :ARG1 (f / feel-01
+                  :ARG0 ii
+                  :ARG1 (b / bad-07
+                        :ARG1 ii))
+            :time (a2 / anymore))
+      :op2 (c / correlate-91
+            :ARG1 (m / more
+                  :ARG3-of (h / have-degree-91
+                        :ARG1 (b2 / be-located-at-91
+                              :ARG1 (h2 / he)
+                              :ARG2 (a3 / around
+                                    :op1 ii))
+                        :ARG2 (l / long-03
+                              :ARG1 b2)))
+            :ARG2 (m2 / more
+                  :ARG3-of (h3 / have-degree-91
+                        :ARG1 (f2 / feel-01
+                              :ARG0 ii)
+                        :ARG2 (b3 / bad-07
+                              :ARG1 ii)))))
+
+# ::id en-0059
+# ::snt I don’t want him to stop being there for his son, because he’s a good father—or at least he tries to be.
+(w / want-01
+      :polarity -
+      :ARG0 (ii / i)
+      :ARG1 (s / stop-01
+            :ARG0 (h / he)
+            :ARG1 (b / be-located-at-91
+                  :ARG1 h
+                  :ARG2 (t / there)
+                  :purpose (p / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 h
+                              :ARG2 (s2 / son)))))
+      :ARG1-of (c / cause-01
+            :ARG0 (o / or
+                  :op1 (h3 / have-rel-role-91
+                        :ARG0 h
+                        :ARG2 (f / father
+                              :ARG1-of (g / good-02)))
+                  :op2 (t2 / try-01
+                        :ARG0 h
+                        :ARG1 h3
+                        :mod (a / at-least)))))
+
+# ::id en-0060
+# ::snt I believe every child needs both parents, whether they’re together or not.
+(b / believe-01
+      :ARG0 (ii / i)
+      :ARG1 (n / need-01
+            :ARG0 (c / child
+                  :mod (e / every))
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 c
+                        :ARG2 (p2 / parent))
+                  :mod (b2 / both))
+            :ARG1-of (r / regardless-91
+                  :ARG2 (o / or
+                        :op1 (t / together
+                              :domain c)
+                        :op2 (t2 / together
+                              :polarity -
+                              :domain c)))))
+
+# ::id en-0061
+# ::snt Have him send you emails or text messages.
+(h / have-04
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / send-01
+            :ARG0 (h2 / he)
+            :ARG1 (o / or
+                  :op1 (e / email)
+                  :op2 (m / message-01
+                        :ARG2 y
+                        :ARG1-of (t / text-01
+                              :ARG2 y)))
+            :ARG2 y))
+
+# ::id en-0062
+# ::snt Keep a record of them.
+(k / keep-01
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (r / record-01
+            :ARG1 (t / they)))
+
+# ::id en-0063
+# ::snt Hire a lawyer and get a divorce.
+(a / and
+      :op1 (h / hire-01
+            :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (l / lawyer))
+      :op2 (d / divorce-01
+            :mode imperative
+            :ARG0 y))
+
+# ::id en-0064
+# ::snt Tell your ex that all communication should go through your lawyer.
+(t / tell-01
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (r / recommend-01
+            :ARG1 (g / go-through-20
+                  :ARG0 (c / communicate-01
+                        :mod (a / all))
+                  :ARG1 (l / lawyer
+                        :poss y)))
+      :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 y
+                  :ARG2 (s / significant-other)
+                  :time (e / ex))))
+
+# ::id en-0065
+## ::snt Sometimes a dinner party that seems perfectly ordinary to us regular folks isn’t as simple for celebrities as we might imagine.
+(s / simple-02
+      :polarity -
+      :ARG1 (p / party-01
+            :mod (d / dinner)
+            :ARG1-of (s2 / seem-01
+                  :ARG2 (f / folk
+                        :ARG1-of (r / regular-03)
+                        :domain (w / we))
+                  :ARG1-of (p2 / perfect-02)))
+      :beneficiary (c / celebrity)
+      :frequency (s3 / sometimes)
+      :ARG2-of (h / have-degree-91
+            :ARG1 p
+            :ARG3 (e / equal)
+            :ARG4 (ii / imagine-01
+                  :ARG0 w
+                  :ARG1-of (p3 / possible-01))))
+
+# ::id en-0066
+# ::snt A star has many contracts and earns a lot of money if they fulfill all of them; if not, they might get fired or stop getting booked...
+(a / and
+      :op1 (a2 / and
+            :op1 (h / have-03
+                  :ARG0 (s / star)
+                  :ARG1 (c / contract
+                        :quant (m / many)))
+            :op2 (e / earn-01
+                  :ARG0 s
+                  :ARG1 (m2 / money
+                        :quant (l / lot)))
+            :condition (f / fulfill-01
+                  :ARG0 s
+                  :ARG1 c
+                  :mod (a3 / all)))
+      :op2 (h2 / have-condition-91
+            :ARG1 (o / or
+                  :op1 (p / possible-01
+                        :ARG1 (f2 / fire-02
+                              :ARG1 s))
+                  :op2 (s2 / stop-01
+                        :ARG1 (b / book-03
+                              :ARG1 s)))
+            :ARG2 (f3 / fulfill-01
+                  :polarity -
+                  :ARG0 s
+                  :ARG1 c)))
+
+# ::id en-0067
+# ::snt There are two types of savvy female stars. 
+(t / type
+      :quant 2
+      :mod (s / star
+            :mod (f / female)
+            :ARG0-of (s2 / savvy-01)))
+
+# ::id en-0068
+# ::snt Some possess very high integrity and strictly decline all such invitations; others are good at playing along and using their initial capital to achieve their goals. 
+(c / contrast-01
+      :ARG1 (a / and
+            :op1 (p / possess-01
+                  :ARG0 (s / some)
+                  :ARG1 (ii / integrity
+                        :ARG1-of (h / high-02
+                              :degree (v / very))))
+            :op2 (d / decline-02
+                  :ARG0 s
+                  :ARG1 (ii2 / invite-01
+                        :ARG1 s
+                        :mod (a2 / all)
+                        :mod (s2 / such))
+                  :manner (s3 / strict)))
+      :ARG2 (g / good-03
+            :ARG1 (o / other)
+            :ARG2 (a3 / and
+                  :op1 (p2 / play-02
+                        :ARG0 o
+                        :manner (a4 / along))
+                  :op2 (u / use-01
+                        :ARG0 o
+                        :ARG1 (c2 / capital
+                              :poss o
+                              :mod (ii3 / initial))
+                        :ARG2 (a5 / achieve-01
+                              :ARG0 o
+                              :ARG1 (g2 / goal
+                                    :poss o))))))
+
+# ::id en-0069
+# ::snt Rumor has it that even some female superstars landed their first roles this way.
+(r / rumor-01
+      :ARG1 (l / land-01
+            :ARG0 (s / superstar
+                  :mod (f / female)
+                  :quant (s2 / some)
+                  :mod (e / even))
+            :ARG1 (r2 / role
+                  :ord (o / ordinal-entity
+                        :value 1)
+                  :poss s)
+            :manner (w / way
+                  :mod (t / this))))
+
+# ::id en-0070
+# ::snt After a few drinks, the advertiser or series sponsor might take the opportunity to rest their head on the female star’s shoulder, touch her chin, or kiss her cheek, and “putting up with it” is the attitude female stars most often adopted.
+(a / and
+      :op1 (p / possible-01
+            :ARG1 (t / take-01
+                  :ARG0 (o / or
+                        :op1 (p2 / person
+                              :ARG0-of (a2 / advertise-01))
+                        :op2 (p3 / person
+                              :ARG0-of (s / sponsor-01
+                                    :ARG1 (s2 / series)))
+                        :part (h / head))
+                  :ARG1 (o2 / opportunity
+                        :mod (o3 / or
+                              :op1 (r / rest-01
+                                    :ARG0 o
+                                    :ARG1 h
+                                    :ARG2 (s3 / shoulder
+                                          :part-of (s4 / star
+                                                :mod (f / female)
+                                                :part (c / chin)
+                                                :part (c2 / cheek))))
+                              :op2 (t2 / touch-01
+                                    :ARG0 o
+                                    :ARG1 c)
+                              :op3 (k / kiss-01
+                                    :ARG0 o
+                                    :ARG1 c2))))
+            :time (a3 / after
+                  :op1 (d / drink-01
+                        :ARG0 o
+                        :quant (f2 / few))))
+      :op2 (a4 / adopt-01
+            :ARG0 s4
+            :ARG1 (a5 / attitude
+                  :domain (p4 / put-up-12
+                        :ARG0 s4
+                        :ARG1 (ii / it)))
+            :frequency (o4 / often
+                  :ARG2-of (h2 / have-degree-91
+                        :ARG1 a4
+                        :ARG3 (m / most)))))
+
+# ::id en-0071
+# ::snt These stars are just putting on a show; in reality, they all have a damn better life.
+(m / multi-sentence
+      :snt1 (p / put-on-08
+            :ARG0 (s / star
+                  :mod (t / this))
+            :ARG1 (s2 / show-04)
+            :mod (j / just))
+      :snt2 (h / have-03
+            :ARG0 (t2 / they
+                  :mod (a / all))
+            :ARG1 (l / life
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (g / good-02
+                              :ARG1 l)
+                        :ARG3 (m2 / more
+                              :mod (d / damn))))
+            :mod (ii / in-reality)))
+
+# ::id en-0072
+# ::snt I see it that way too—just cheap entertainers.  
+(s / see-01
+      :ARG0 (ii / i)
+      :ARG1 (ii2 / it
+            :manner (t / that)
+            :ARG1-of (m / mean-01
+                  :ARG2 (p / person
+                        :ARG0-of (e / entertain-01)
+                        :ARG1-of (c / cheap-02)
+                        :mod (j / just))))
+      :mod (t2 / too))
+
+# ::id en-0073
+# ::snt Their reputation in rural China kind of makes sense.
+(s / sense-02
+      :ARG1 (r / reputation
+            :poss (t / they)
+            :location (c / country
+                  :name (n / name
+                        :op1 "China")
+                  :mod (r2 / rural)))
+      :degree (k / kind-of))
+
+# ::id en-0074
+# ::snt Agree! 
+(a / agree-01
+      :mode expressive)
+
+# ::id en-0075
+# ::snt My fellow citizens, it is time for us to say “no” to others. 
+(s / say-01
+      :ARG1 (t / time
+            :time-of (s2 / say-01
+                  :ARG0 (w / we)
+                  :ARG1 (n / no)
+                  :ARG2 (c / citizen
+                        :mod (f / fellow)
+                        :poss (ii / i)
+                        :ARG2-of s))))
+
+# ::id en-0076
+# ::snt That is why we must achieve the following:
+(c / cause-01
+      :ARG0 (t / that)
+      :ARG1 (o / obligate-01
+            :ARG1 (a / achieve-01
+                  :ARG0 (w / we)
+                  :ARG1 (t2 / thing
+                        :ARG1-of (f / follow-01)))))
+
+# ::id en-0077
+# ::snt 1. Secure funding, improve working conditions and mechanisms, and offer incentives to the hundreds of thousands of IT professionals who have emigrated to the United States and other countries around the world to return to China.
+(a / and
+      :li 1
+      :op1 (s / secure-01
+            :ARG1 (f / fund-01))
+      :op2 (ii / improve-01
+            :ARG1 (a2 / and
+                  :op1 (c / condition
+                        :mod (w / work-01))
+                  :op2 (m / mechanism)))
+      :op3 (o / offer-01
+            :ARG1 (ii2 / incentivize-01
+                  :ARG1 (p / professional
+                        :mod (t / technology
+                              :mod (ii3 / information))
+                        :quant (m2 / multiple
+                              :op1 100000)
+                        :ARG0-of (e / emigrate-01
+                              :ARG2 (a3 / and
+                                    :op1 (c2 / country
+                                          :name (n / name
+                                                :op1 "United"
+                                                :op2 "States"))
+                                    :op2 (c3 / country
+                                          :mod (o2 / other)
+                                          :location (a4 / around
+                                                :op1 (w2 / world))))
+                              :purpose (r / return-01
+                                    :ARG1 p
+                                    :ARG4 (c4 / country
+                                          :name (n2 / name
+                                                :op1 "China"))))))))
+
+# ::id en-0078
+# ::snt 2. Establish several nuclear-powered aircraft carrier strike groups.
+(e / establish-01
+      :li 2
+      :ARG1 (g / group
+            :ARG0-of (s / strike-01)
+            :ARG1-of (p / power-01
+                  :ARG0 (n / nucleus))
+            :quant (s2 / several)
+            :mod (c / carrier
+                  :mod (a / aircraft))))
+
+# ::id en-0079
+# ::snt 3. Manufacture 5,000 advanced combat aircraft of various types.
+(m / manufacture-01
+      :li 3
+      :ARG1 (a / aircraft
+            :quant 5000
+            :ARG0-of (c / combat-01)
+            :ARG1-of (a2 / advanced-02)
+            :mod (t / type
+                  :mod (v / various))))
+
+# ::id en-0080
+# ::snt 4. Accelerate research and deployment of intercontinental high-speed missiles capable of destroying missile defense systems and with a range exceeding 10,000 nautical miles.
+(a / accelerate-01
+      :li 4
+      :ARG1 (a2 / and
+            :op1 (r / research-01
+                  :ARG1 (m / missile
+                        :mod (ii / intercontinental)
+                        :ARG1-of (s / speed-01
+                              :ARG1-of (h / high-02))
+                        :ARG1-of (c / capable-01
+                              :ARG2 (d / destroy-01
+                                    :ARG1 (s2 / system
+                                          :ARG2-of (d2 / defend-01
+                                                :ARG3 (m2 / missile)))))
+                        :ARG1-of (r2 / range-01
+                              :ARG2 (d3 / distance-quantity
+                                    :quant 10000
+                                    :unit (m3 / mile
+                                          :mod (n / nautical))))))
+            :op2 (d4 / deploy-01
+                  :ARG1 m)))
+
+# ::id en-0081
+# ::snt 5. Resume nuclear testing and establish military forces in space.
+(a / and
+      :li 5
+      :op1 (r / resume-01
+            :ARG1 (t / test-01
+                  :mod (n / nucleus)))
+      :op2 (e / establish-01
+            :ARG1 (f / force
+                  :mod (m / military))
+            :location (s / space)))
+
+# ::id en-0082
+# ::snt 6. Maintain a stockpile of 1,000 nuclear bombs equivalent to 10 million tons of TNT, and, if necessary, mount nuclear warheads on all short- and medium-range missiles.
+(a / and
+      :li 6
+      :op1 (m / maintain-01
+            :ARG1 (s / stockpile-01
+                  :ARG1 (b / bomb
+                        :quant 1000
+                        :mod (n / nucleus)
+                        :ARG1-of (e / equal-01
+                              :ARG2 (t / TNT
+                                    :quant (m2 / mass-quantity
+                                          :quant 10000000
+                                          :unit (t2 / ton)))))))
+      :op2 (m3 / mount-01
+            :ARG1 (w / warhead
+                  :mod (n2 / nucleus))
+            :ARG2 (m4 / missile
+                  :ARG1-of (r / range-01
+                        :ARG2 (s2 / short-07))
+                  :ARG1-of (r2 / range-01
+                        :ARG2 (m5 / medium))
+                  :mod (a2 / all))
+            :condition (n3 / need-01
+                  :ARG1 w)))
+
+# ::id en-0083
+# ::snt 7. Maintain 30 strategic nuclear submarines capable of delivering three devastating nuclear strikes against enemies.
+(m / maintain-01
+      :li 7
+      :ARG1 (s / submarine
+            :quant 30
+            :mod (n / nucleus)
+            :mod (s2 / strategy)
+            :ARG1-of (c / capable-01
+                  :ARG2 (d / deliver-01
+                        :ARG0 s
+                        :ARG1 (s3 / strike-01
+                              :quant 3
+                              :ARG1 (e / enemy)
+                              :mod (n2 / nucleus)
+                              :ARG0-of (d2 / devastate-01))))))
+
+# ::id en-0084
+# ::snt 8. Abandon the commitment not to launch a first nuclear strike.
+(a / abandon-01
+      :li 8
+      :ARG1 (c / commit-01
+            :ARG2 (l / launch-01
+                  :polarity -
+                  :ARG1 (s / strike-01
+                        :mod (n / nucleus)
+                        :ord (o / ordinal-entity
+                              :value 1)))))
+
+# ::id en-0085
+# ::snt 9. Retain the right to launch preemptive strikes when national security is threatened.
+(r / retain-01
+      :li 9
+      :ARG1 (r2 / right-05
+            :ARG2 (s / strike-01
+                  :ARG2-of (p / preempt-01)
+                  :time (t / threaten-01
+                        :ARG2 (s2 / security
+                              :mod (n / nation))))))
+
+# ::id en-0086
+# ::snt In the men’s 1-meter springboard diving competition held this morning, our competitors Lan Wei and Sheng Chen have already qualified for the heats.
+(q / qualify-02
+      :ARG1 (a / and
+            :op1 (p / person
+                  :name (n / name
+                        :op1 "Lan"
+                        :op2 "Wei")
+                  :ARG0-of (c / compete-01
+                        :ARG1 (w / we)))
+            :op2 (p2 / person
+                  :name (n2 / name
+                        :op1 "Sheng"
+                        :op2 "Chen")
+                  :ARG0-of (c2 / compete-01
+                        :ARG1 w)))
+      :ARG2 (h / heat)
+      :time (a2 / already)
+      :subevent-of (c3 / compete-01
+            :ARG0 (m / man)
+            :ARG3 (d / dive-01
+                  :location (s / springboard)
+                  :quant (d2 / distance-quantity
+                        :quant 1
+                        :unit (m2 / meter)))
+            :ARG1-of (h2 / hold-04
+                  :time (d3 / date-entity
+                        :dayperiod (m3 / morning)
+                        :mod (t / today)))))
+
+# ::id en-0087
+# ::snt The results of today’s women’s water polo competition are as follows: 
+(f / follow-04
+      :ARG1 (t / thing
+            :ARG2-of (r / result-01
+                  :ARG1 (c / compete-01
+                        :ARG0 (w / woman)
+                        :ARG3 (w2 / water-polo)
+                        :time (t2 / today)))))
+
+# ::id en-0088
+# ::snt The Hungarian team defeated the Canadian team 13–7, the French team defeated the Brazilian team 10–9, the Australian team defeated the German team 10–8, the Russian team defeated the Dutch team 7–6, the U.S. team defeated the Kazakh team 10–5, and the Italian team defeated the New Zealand team 12–2.
+(a / and
+      :op1 (d / defeat-01
+            :ARG0 (t / team
+                  :name (n / name
+                        :op1 "Hungary"))
+            :ARG1 (t2 / team
+                  :mod (c / country
+                        :name (n2 / name
+                              :op1 "Canada")))
+            :ARG2 (s / score-entity
+                  :op1 13
+                  :op2 7))
+      :op2 (d2 / defeat-01
+            :ARG0 (t3 / team
+                  :name (n3 / name
+                        :op1 "France"))
+            :ARG1 (t4 / team
+                  :mod (c2 / country
+                        :name (n4 / name
+                              :op1 "Brazil")))
+            :ARG2 (s2 / score-entity
+                  :op1 10
+                  :op2 9))
+      :op3 (d3 / defeat-01
+            :ARG0 (t5 / team
+                  :name (n5 / name
+                        :op1 "Australia"))
+            :ARG1 (t6 / team
+                  :mod (c3 / country
+                        :name (n6 / name
+                              :op1 "Germany")))
+            :ARG2 (s3 / score-entity
+                  :op1 10
+                  :op2 8))
+      :op4 (d4 / defeat-01
+            :ARG0 (t7 / team
+                  :name (n7 / name
+                        :op1 "Russia"))
+            :ARG1 (t8 / team
+                  :mod (c4 / country
+                        :name (n8 / name
+                              :op1 "Netherlands")))
+            :ARG2 (s4 / score-entity
+                  :op1 7
+                  :op2 6))
+      :op5 (d5 / defeat-01
+            :ARG0 (t9 / team
+                  :mod (c5 / country
+                        :name (n9 / name
+                              :op1 "U.S.")))
+            :ARG1 (t10 / team
+                  :mod (c6 / country
+                        :name (n10 / name
+                              :op1 "Kazakhstan")))
+            :ARG2 (s5 / score-entity
+                  :op1 10
+                  :op2 5))
+      :op6 (d6 / defeat-01
+            :ARG0 (t11 / team
+                  :mod (c7 / country
+                        :name (n11 / name
+                              :op1 "Italy")))
+            :ARG1 (t12 / team
+                  :mod (c8 / country
+                        :name (n12 / name
+                              :op1 "New"
+                              :op2 "Zealand")))
+            :ARG2 (s6 / score-entity
+                  :op1 12
+                  :op2 2)))
+
+# ::id en-0089
+# ::snt A total of 12 teams participated in the competition.
+(p / participate-01
+      :ARG0 (t / team
+            :quant 12
+            :ARG2-of (t2 / total-01))
+      :ARG1 (c / compete-01))
+
+# ::id en-0090
+# ::snt He said that this visit by the Deputy Prime Minister and the reciprocal visits by other high-level leaders from China and Thailand were beneficial in promoting further development of relations and effective cooperation in all fields between the two countries.
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (b / benefit-01
+            :ARG0 (a / and
+                  :op1 (v / visit-01
+                        :ARG0 (p / person
+                              :ARG0-of (h2 / have-org-role-91
+                                    :ARG2 (m / minister
+                                          :mod (d / deputy)
+                                          :mod (p2 / prime))))
+                        :mod (t / this))
+                  :op2 (v2 / visit-01
+                        :ARG0 (p3 / person
+                              :ARG0-of (l / lead-02
+                                    :ARG1 (a2 / and
+                                          :op1 (c / country
+                                                :name (n / name
+                                                      :op1 "China"))
+                                          :op2 (c2 / country
+                                                :name (n2 / name
+                                                      :op1 "Thailand"))))
+                              :mod (l2 / level
+                                    :ARG1-of (h3 / high-02))
+                              :mod (o / other))
+                        :mod (r / reciprocal)))
+            :ARG1 (p4 / promote-02
+                  :ARG0 a
+                  :ARG1 (d2 / develop-02
+                        :ARG1 (a3 / and
+                              :op1 (r2 / relation-03
+                                    :ARG0 c
+                                    :ARG2 c2)
+                              :op2 (c3 / cooperate-01
+                                    :ARG0 c2
+                                    :ARG1 c2
+                                    :ARG2 (f / field
+                                          :mod (a4 / all))
+                                    :ARG0-of (e / effective-04)))
+                        :mod (f2 / further)))))
+
+# ::id en-0091
+# ::snt Chavalit said he was very pleased to meet Vice President Liu.
+(s / say-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Chavalit"))
+      :ARG1 (p2 / please-01
+            :ARG0 (m / meet-03
+                  :ARG0 p
+                  :ARG1 (p3 / person
+                        :name (n2 / name
+                              :op1 "Liu")
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (p4 / president
+                                    :mod (v / vice)))))
+            :ARG1 p
+            :degree (v2 / very)))
+
+# ::id en-0092
+# ::snt He said that in recent years, China’s economic development has accelerated, and the government and people of Thailand are extremely pleased.
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (a / and
+            :op1 (a2 / accelerate-01
+                  :ARG1 (d / develop-02
+                        :ARG1 (e / economy
+                              :poss (c / country
+                                    :name (n / name
+                                          :op1 "China"))))
+                  :time (y / year
+                        :mod (r / recent)))
+            :op2 (p / please-01
+                  :ARG1 (a3 / and
+                        :op1 (g / government-organization
+                              :ARG0-of (g2 / govern-01
+                                    :ARG1 (c2 / country
+                                          :name (n2 / name
+                                                :op1 "Thailand"))))
+                        :op2 (p2 / person
+                              :poss c2))
+                  :degree (e2 / extreme))))
+
+# ::id en-0093
+# ::snt He said he agreed with Huaqing Liu’s view that Thailand and China should continue to develop various forms of economic and trade cooperation.
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (a / agree-01
+            :ARG0 h
+            :ARG1 (v / view-02
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Huaqing"
+                              :op2 "Liu"))
+                  :ARG1 (r / recommend-01
+                        :ARG1 (c / continue-01
+                              :ARG0 (a2 / and
+                                    :op1 (c2 / country
+                                          :name (n2 / name
+                                                :op1 "Thailand"))
+                                    :op2 (c3 / country
+                                          :name (n3 / name
+                                                :op1 "China")))
+                              :ARG1 (d / develop-02
+                                    :ARG0 a2
+                                    :ARG1 (f / form
+                                          :mod (v2 / various)
+                                          :mod (c4 / cooperate-01
+                                                :ARG2 (a3 / and
+                                                      :op1 (e / economy)
+                                                      :op2 (t / trade-01))))))))
+            :ARG2 p))
+
+# ::id en-0094
+# ::snt Representatives from China and Kyrgyzstan signed six documents today.
+(s / sign-01
+      :ARG0 (a / and
+            :op1 (p / person
+                  :ARG0-of (r / represent-01
+                        :ARG1 (c / country
+                              :name (n / name
+                                    :op1 "China"))))
+            :op2 (p2 / person
+                  :ARG0-of (r2 / represent-01
+                        :ARG1 (c2 / country
+                              :name (n2 / name
+                                    :op1 "Kyrgyzstan")))))
+      :ARG1 (d / document
+            :quant 6)
+      :time (t / today))
+
+# ::id en-0095
+# ::snt Prime Minister Peng Li and Kyrgyz President Akayev attended the signing ceremony.
+(a / attend-01
+      :ARG0 (a2 / and
+            :op1 (p / person
+                  :name (n / name
+                        :op1 "Peng"
+                        :op2 "Li")
+                  :ARG0-of (h / have-org-role-91
+                        :ARG2 (m / minister
+                              :mod (p2 / prime))))
+            :op2 (p3 / person
+                  :name (n2 / name
+                        :op1 "Akayev")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 (c / country
+                              :name (n3 / name
+                                    :op1 "Kyrgyzstan"))
+                        :ARG2 (p4 / president))))
+      :ARG1 (c2 / ceremony
+            :mod (s / sign-01)))
+
+# ::id en-0096
+# ::snt The six documents are: an agreement for China to provide a loan to the Kyrgyz government, an agreement to establish a Joint Economic and Trade Committee between the Chinese and Kyrgyz governments, an exchange of notes regarding China’s provision of materials to Kyrgyzstan, a cultural cooperation agreement between China and Kyrgyzstan, instruments of ratification regarding the exchange of consular treaties between the two countries, and a cooperation agreement between the China Council for the Promotion of International Trade and the Kyrgyz Chamber of Industry and Commerce.
+(d / document
+      :quant 6
+      :domain (a / and
+            :op1 (a2 / agree-01
+                  :ARG0 (c / country
+                        :name (n / name
+                              :op1 "China"))
+                  :ARG1 (p / provide-01
+                        :ARG0 c
+                        :ARG1 (l / loan-01
+                              :ARG0 c
+                              :ARG2 (g / government-organization
+                                    :ARG0-of (g2 / govern-01
+                                          :ARG1 (c2 / country
+                                                :name (n2 / name
+                                                      :op1 "Kyrgyzstan"))))))
+                  :ARG2 g)
+            :op2 (a3 / agree-01
+                  :ARG0 c
+                  :ARG1 (e / establish-01
+                        :ARG0 (a4 / and
+                              :op1 c
+                              :op2 g)
+                        :ARG1 (o / organization
+                              :name (n3 / name
+                                    :op1 "Joint"
+                                    :op2 "Economic"
+                                    :op3 "and"
+                                    :op4 "Trade"
+                                    :op5 "Committee")))
+                  :ARG2 g)
+            :op3 (e2 / exchange-01
+                  :ARG1 (n4 / note
+                        :topic (p2 / provide-01
+                              :ARG0 c
+                              :ARG1 (m / material)
+                              :ARG2 c2)))
+            :op4 (a5 / agree-01
+                  :ARG0 c
+                  :ARG1 (c3 / cooperate-01
+                        :ARG0 c
+                        :ARG1 c2
+                        :mod (c4 / culture))
+                  :ARG2 c2)
+            :op5 (ii / instrument
+                  :instrument-of (r / ratify-01)
+                  :topic (e3 / exchange-01
+                        :ARG0 c
+                        :ARG1 (t / treaty
+                              :mod (c5 / consular))
+                        :ARG2 c2))
+            :op6 (a6 / agree-01
+                  :ARG0 (g3 / government-organization
+                        :name (n5 / name
+                              :op1 "China"
+                              :op2 "Council"
+                              :op3 "for"
+                              :op4 "the"
+                              :op5 "Promotion"
+                              :op6 "of"
+                              :op7 "International"
+                              :op8 "Trade"))
+                  :ARG2 o
+                  :name (n6 / name
+                        :op1 "Kyrgyz"
+                        :op2 "Chamber"
+                        :op3 "of"
+                        :op4 "Industry"
+                        :op5 "and"
+                        :op6 "Commerce"))
+            :mod (c6 / cooperate-01)))
+
+# ::id en-0097
+# ::snt Akayev praised the results of the conference with Peng Li.
+(p / praise-01
+      :ARG0 (p2 / person
+            :name (n / name
+                  :op1 "Akayev"))
+      :ARG1 (r / result-01
+            :ARG1 (c / conference))
+      :accompanier (p3 / person
+            :name (n2 / name
+                  :op1 "Peng"
+                  :op2 "Li")))
+
+# ::id en-0098
+# ::snt A Japanese flag hung from the president's podium.
+(h / hang-01
+      :ARG1 (f / flag
+            :mod (c / country
+                  :name (n / name
+                        :op1 "Japan")))
+      :ARG2 (p / podium
+            :poss (p2 / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (p3 / president)))))
+
+# ::id en-0099
+# ::snt The Japanese delegation will fly to Beijing on the 2nd day.
+(f / fly-01
+      :ARG1 (d / delegation
+            :mod (c / country
+                  :name (n / name
+                        :op1 "Japan")))
+      :destination (c2 / city
+            :name (n2 / name
+                  :op1 "Beijing"))
+      :time (d2 / day
+            :ord (o / ordinal-entity
+                  :value 2)))
+
+# ::id en-0100
+# ::snt They still lack experience in international competitions.
+(l / lack-01
+      :ARG0 (t / they)
+      :ARG1 (e / experience-01
+            :ARG0 t
+            :ARG1 (c / compete-01
+                  :mod (ii / international)))
+      :mod (s / still))
