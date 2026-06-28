@@ -1,5 +1,5 @@
 ## Guidelines
----
+
 **Compound nouns**
 
 Productive compound nouns (noun + noun, adjective + noun, and preposition + noun) are split into their semantic head and prefix added with `:mod`. Unproductive compounds (verb + noun) are annotated with the full word. 
