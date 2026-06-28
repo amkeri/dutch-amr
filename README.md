@@ -31,6 +31,7 @@ Annotation follows the [AMR guidelines](https://github.com/amrisi/amr-guidelines
 
 The `parse_xfm_bart_large` from the [amrlib repo](https://github.com/bjascob/amrlib) (v0.8.1) is used as base model, with an **mT5-base** backbone.
 
+
 ⚠️ Due to the size, it is available from [HuggingFace](https://huggingface.co/AKerissi/dutch-amr-parser). 
 
 ---
