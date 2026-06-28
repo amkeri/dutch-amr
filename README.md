@@ -38,4 +38,4 @@ The `parse_xfm_bart_large` from the [amrlib repo](https://github.com/bjascob/amr
 
 ## Evaluation
 
-The translate-then-parse approach is evaluated using **XS2match** (developed by [Wein et al.](https://github.com/shirawein/Crossling-AMR-Eval)), adjusted to use Dutch and English wiki aligned word vectors files (from [fastText](https://fasttext.cc/docs/en/aligned-vectors.html)). 
+The translate-then-parse approach is evaluated using **XS2match** (developed by [Wein et al.](https://github.com/shirawein/Crossling-AMR-Eval)), adjusted to use Dutch and English wiki aligned word vectors files (from [fastText](https://fasttext.cc/docs/en/aligned-vectors.html)). To use XS2match, download the Dutch and English files from the fastText site aforementioned, and combine them using `prepare_vectors.py` provided in this repository.
