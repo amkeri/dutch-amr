@@ -1,6 +1,6 @@
 # Dutch AMR
 
-This repository contains the corpus, parser, and evaluation created and used for the thesis *"Establishing Dutch Abstract Meaning Representation: Annotated Corpus and Fine-tuned Parser"* for the BSc Artificial Intelligence at the Vrije Universiteit Amsterdam.
+This repository serves as a hub to collect the corpus, parser, and evaluation in one place created and used for the thesis *"Establishing Dutch Abstract Meaning Representation: Annotated Corpus and Fine-tuned Parser"* for the BSc Artificial Intelligence at the Vrije Universiteit Amsterdam.
 
 ---
 
