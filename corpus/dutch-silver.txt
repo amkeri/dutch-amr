@@ -768,7 +768,7 @@
                   :ARG0-of (h2 / have-rel-role-91
                         :ARG1 h
                         :ARG2 (z / zoon)))
-            :concession (a2 / aanweig-zijn-01
+            :concession (a2 / aanwezig-zijn-01
                   :ARG0 i
                         :polarity -)))
 
