@@ -26,8 +26,8 @@ The `parse_xfm_bart_large` from the [amrlib repo](https://github.com/bjascob/amr
 
 ## Evaluation
 
-To use XS2match
-1. Clone the repo from [Crossling-AMR-Eval](https://github.com/shirawein/Crossling-AMR-Eval)
-2. Download Dutch and English vector files (this project used Dutch and English wiki aligned word vectors files from [fastText](https://fasttext.cc/docs/en/aligned-vectors.html)
-3. Combine the vector files in a file (`combined_en_nl.txt`, remove the headers) and replace the combined files for Spanish (`cc.combined.300.txt`) in the `vectors` folder
+To use XS2match:
+1. Clone the repo from [Crossling-AMR-Eval](https://github.com/shirawein/Crossling-AMR-Eval).
+2. Download Dutch and English vector files (this project used Dutch and English wiki aligned word vectors files from [fastText](https://fasttext.cc/docs/en/aligned-vectors.html)).
+3. Combine the vector files in a file (`combined_en_nl.txt`, remove the headers) and replace the combined files for Spanish (`cc.combined.300.txt`) in the `vectors` folder.
 4. Follow the scripts in Crossling-AMR-Eval to run the evaluation. 
